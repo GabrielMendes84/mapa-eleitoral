@@ -1,0 +1,11 @@
+pandas
+requests
+geopandas
+plotly
+streamlit
+pyarrow
+tqdm
+folium
+streamlit-folium
+databricks-sql-connector
+databricks-sdk
