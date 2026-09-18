@@ -47,7 +47,6 @@ data/tse_historico/
 # Dados derivados grandes
 # =========================================================
 
-data/parquet/
 data/raw/
 data/interim/
 data/processed/
@@ -66,3 +65,6 @@ outputs/*
 *.tmp
 *.log
 
+!data/tse_historico/
+!data/tse_historico/apoio/
+!data/tse_historico/apoio/municipio_tse_ibge.zip
