@@ -65,6 +65,14 @@ outputs/*
 *.tmp
 *.log
 
-!data/tse_historico/
+# Dados brutos do TSE
+data/tse_historico/*
+
+# Permitir somente a pasta de apoio
 !data/tse_historico/apoio/
+
+# Ignorar tudo dentro de apoio...
+data/tse_historico/apoio/*
+
+# ...exceto o crosswalk TSE -> IBGE
 !data/tse_historico/apoio/municipio_tse_ibge.zip

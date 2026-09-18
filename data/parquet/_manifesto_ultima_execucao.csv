@@ -1,0 +1,1118 @@
+﻿dataset,ano,uf,cargo,linhas,total
+candidatos,2014,BR,*,26195,
+candidatos,2014,AC,*,617,
+votacao_candidato_municipio,2014,AC,DEPUTADO ESTADUAL,10934,377299.0
+votacao_candidato_municipio,2014,AC,DEPUTADO FEDERAL,1364,368332.0
+votacao_candidato_municipio,2014,AC,GOVERNADOR,132,771757.0
+votacao_candidato_municipio,2014,AC,SENADOR,88,374813.0
+apuracao_municipio,2014,AC,DEPUTADO ESTADUAL,22,377299.0
+apuracao_municipio,2014,AC,DEPUTADO FEDERAL,22,368332.0
+apuracao_municipio,2014,AC,GOVERNADOR,44,771757.0
+apuracao_municipio,2014,AC,SENADOR,22,374813.0
+candidatos,2014,AL,*,479,
+votacao_candidato_municipio,2014,AL,DEPUTADO ESTADUAL,26724,1314659.0
+votacao_candidato_municipio,2014,AL,DEPUTADO FEDERAL,10200,1283120.0
+votacao_candidato_municipio,2014,AL,GOVERNADOR,800,1285091.0
+votacao_candidato_municipio,2014,AL,SENADOR,686,1237779.0
+apuracao_municipio,2014,AL,DEPUTADO ESTADUAL,102,1314659.0
+apuracao_municipio,2014,AL,DEPUTADO FEDERAL,102,1283120.0
+apuracao_municipio,2014,AL,GOVERNADOR,102,1285091.0
+apuracao_municipio,2014,AL,SENADOR,102,1237779.0
+candidatos,2014,AM,*,778,
+votacao_candidato_municipio,2014,AM,DEPUTADO ESTADUAL,35340,1552644.0
+votacao_candidato_municipio,2014,AM,DEPUTADO FEDERAL,4898,1560085.0
+votacao_candidato_municipio,2014,AM,GOVERNADOR,1214,6021073.0
+votacao_candidato_municipio,2014,AM,SENADOR,338,1596265.0
+apuracao_municipio,2014,AM,DEPUTADO ESTADUAL,62,1552644.0
+apuracao_municipio,2014,AM,DEPUTADO FEDERAL,62,1560085.0
+apuracao_municipio,2014,AM,GOVERNADOR,124,6021073.0
+apuracao_municipio,2014,AM,SENADOR,62,1596265.0
+candidatos,2014,AP,*,546,
+votacao_candidato_municipio,2014,AP,DEPUTADO ESTADUAL,5408,373731.0
+votacao_candidato_municipio,2014,AP,DEPUTADO FEDERAL,1664,368061.0
+votacao_candidato_municipio,2014,AP,GOVERNADOR,143,746582.0
+votacao_candidato_municipio,2014,AP,SENADOR,138,363236.0
+apuracao_municipio,2014,AP,DEPUTADO ESTADUAL,16,373731.0
+apuracao_municipio,2014,AP,DEPUTADO FEDERAL,16,368061.0
+apuracao_municipio,2014,AP,GOVERNADOR,32,746582.0
+apuracao_municipio,2014,AP,SENADOR,16,363236.0
+candidatos,2014,BA,*,1093,
+votacao_candidato_municipio,2014,BA,DEPUTADO ESTADUAL,241443,6053428.0
+votacao_candidato_municipio,2014,BA,DEPUTADO FEDERAL,130104,5982371.0
+votacao_candidato_municipio,2014,BA,GOVERNADOR,2483,6527223.0
+votacao_candidato_municipio,2014,BA,SENADOR,2032,5978634.0
+apuracao_municipio,2014,BA,DEPUTADO ESTADUAL,417,6053428.0
+apuracao_municipio,2014,BA,DEPUTADO FEDERAL,417,5982371.0
+apuracao_municipio,2014,BA,GOVERNADOR,417,6527223.0
+apuracao_municipio,2014,BA,SENADOR,417,5978634.0
+candidatos,2014,CE,*,875,
+votacao_candidato_municipio,2014,CE,DEPUTADO ESTADUAL,102672,4086768.0
+votacao_candidato_municipio,2014,CE,DEPUTADO FEDERAL,35880,4002492.0
+votacao_candidato_municipio,2014,CE,GOVERNADOR,1104,8797241.0
+votacao_candidato_municipio,2014,CE,SENADOR,736,3997488.0
+apuracao_municipio,2014,CE,DEPUTADO ESTADUAL,184,4086768.0
+apuracao_municipio,2014,CE,DEPUTADO FEDERAL,184,4002492.0
+apuracao_municipio,2014,CE,GOVERNADOR,368,8797241.0
+apuracao_municipio,2014,CE,SENADOR,184,3997488.0
+candidatos,2014,DF,*,1201,
+votacao_candidato_municipio,2014,DF,DEPUTADO DISTRITAL,979,1439955.0
+votacao_candidato_municipio,2014,DF,DEPUTADO FEDERAL,128,1362160.0
+votacao_candidato_municipio,2014,DF,GOVERNADOR,8,2993494.0
+votacao_candidato_municipio,2014,DF,SENADOR,8,1434866.0
+apuracao_municipio,2014,DF,DEPUTADO DISTRITAL,1,1439955.0
+apuracao_municipio,2014,DF,DEPUTADO FEDERAL,1,1362160.0
+apuracao_municipio,2014,DF,GOVERNADOR,2,2993494.0
+apuracao_municipio,2014,DF,SENADOR,1,1434866.0
+candidatos,2014,ES,*,792,
+votacao_candidato_municipio,2014,ES,DEPUTADO ESTADUAL,36816,1757871.0
+votacao_candidato_municipio,2014,ES,DEPUTADO FEDERAL,12246,1665277.0
+votacao_candidato_municipio,2014,ES,GOVERNADOR,387,1909594.0
+votacao_candidato_municipio,2014,ES,SENADOR,386,1680726.0
+apuracao_municipio,2014,ES,DEPUTADO ESTADUAL,78,1757871.0
+apuracao_municipio,2014,ES,DEPUTADO FEDERAL,78,1665277.0
+apuracao_municipio,2014,ES,GOVERNADOR,78,1909594.0
+apuracao_municipio,2014,ES,SENADOR,78,1680726.0
+candidatos,2014,GO,*,1060,
+votacao_candidato_municipio,2014,GO,DEPUTADO ESTADUAL,176382,2877038.0
+votacao_candidato_municipio,2014,GO,DEPUTADO FEDERAL,23370,2824329.0
+votacao_candidato_municipio,2014,GO,GOVERNADOR,2214,5894047.0
+votacao_candidato_municipio,2014,GO,SENADOR,1722,2698409.0
+apuracao_municipio,2014,GO,DEPUTADO ESTADUAL,246,2877038.0
+apuracao_municipio,2014,GO,DEPUTADO FEDERAL,246,2824329.0
+apuracao_municipio,2014,GO,GOVERNADOR,492,5894047.0
+apuracao_municipio,2014,GO,SENADOR,246,2698409.0
+candidatos,2014,MA,*,895,
+votacao_candidato_municipio,2014,MA,DEPUTADO ESTADUAL,106330,2917435.0
+votacao_candidato_municipio,2014,MA,DEPUTADO FEDERAL,50995,2892959.0
+votacao_candidato_municipio,2014,MA,GOVERNADOR,1302,2954960.0
+votacao_candidato_municipio,2014,MA,SENADOR,1302,2872633.0
+apuracao_municipio,2014,MA,DEPUTADO ESTADUAL,217,2917435.0
+apuracao_municipio,2014,MA,DEPUTADO FEDERAL,217,2892959.0
+apuracao_municipio,2014,MA,GOVERNADOR,217,2954960.0
+apuracao_municipio,2014,MA,SENADOR,217,2872633.0
+candidatos,2014,MG,*,1943,
+votacao_candidato_municipio,2014,MG,DEPUTADO ESTADUAL,899915,9204160.0
+votacao_candidato_municipio,2014,MG,DEPUTADO FEDERAL,528860,9215387.0
+votacao_candidato_municipio,2014,MG,GOVERNADOR,5373,10123030.0
+votacao_candidato_municipio,2014,MG,SENADOR,5648,8995689.0
+apuracao_municipio,2014,MG,DEPUTADO ESTADUAL,853,9204160.0
+apuracao_municipio,2014,MG,DEPUTADO FEDERAL,853,9215387.0
+apuracao_municipio,2014,MG,GOVERNADOR,853,10123030.0
+apuracao_municipio,2014,MG,SENADOR,853,8995689.0
+candidatos,2014,MS,*,597,
+votacao_candidato_municipio,2014,MS,DEPUTADO ESTADUAL,31205,1204007.0
+votacao_candidato_municipio,2014,MS,DEPUTADO FEDERAL,9164,1174221.0
+votacao_candidato_municipio,2014,MS,GOVERNADOR,632,2661826.0
+votacao_candidato_municipio,2014,MS,SENADOR,474,1217082.0
+apuracao_municipio,2014,MS,DEPUTADO ESTADUAL,79,1204007.0
+apuracao_municipio,2014,MS,DEPUTADO FEDERAL,79,1174221.0
+apuracao_municipio,2014,MS,GOVERNADOR,158,2661826.0
+apuracao_municipio,2014,MS,SENADOR,79,1217082.0
+candidatos,2014,MT,*,485,
+votacao_candidato_municipio,2014,MT,DEPUTADO ESTADUAL,41172,1394584.0
+votacao_candidato_municipio,2014,MT,DEPUTADO FEDERAL,13536,1334861.0
+votacao_candidato_municipio,2014,MT,GOVERNADOR,705,1456305.0
+votacao_candidato_municipio,2014,MT,SENADOR,564,1341310.0
+apuracao_municipio,2014,MT,DEPUTADO ESTADUAL,141,1394584.0
+apuracao_municipio,2014,MT,DEPUTADO FEDERAL,141,1334861.0
+apuracao_municipio,2014,MT,GOVERNADOR,141,1456305.0
+apuracao_municipio,2014,MT,SENADOR,141,1341310.0
+candidatos,2014,PA,*,1046,
+votacao_candidato_municipio,2014,PA,DEPUTADO ESTADUAL,93600,3453031.0
+votacao_candidato_municipio,2014,PA,DEPUTADO FEDERAL,25056,3496764.0
+votacao_candidato_municipio,2014,PA,GOVERNADOR,995,7243819.0
+votacao_candidato_municipio,2014,PA,SENADOR,1118,3393080.0
+apuracao_municipio,2014,PA,DEPUTADO ESTADUAL,144,3453031.0
+apuracao_municipio,2014,PA,DEPUTADO FEDERAL,144,3496764.0
+apuracao_municipio,2014,PA,GOVERNADOR,288,7243819.0
+apuracao_municipio,2014,PA,SENADOR,144,3393080.0
+candidatos,2014,PB,*,583,
+votacao_candidato_municipio,2014,PB,DEPUTADO ESTADUAL,74259,1835376.0
+votacao_candidato_municipio,2014,PB,DEPUTADO FEDERAL,21408,1773112.0
+votacao_candidato_municipio,2014,PB,GOVERNADOR,1784,4175246.0
+votacao_candidato_municipio,2014,PB,SENADOR,1561,1743955.0
+apuracao_municipio,2014,PB,DEPUTADO ESTADUAL,223,1835376.0
+apuracao_municipio,2014,PB,DEPUTADO FEDERAL,223,1773112.0
+apuracao_municipio,2014,PB,GOVERNADOR,446,4175246.0
+apuracao_municipio,2014,PB,SENADOR,223,1743955.0
+candidatos,2014,PE,*,756,
+votacao_candidato_municipio,2014,PE,DEPUTADO ESTADUAL,90465,4171737.0
+votacao_candidato_municipio,2014,PE,DEPUTADO FEDERAL,28675,4129147.0
+votacao_candidato_municipio,2014,PE,GOVERNADOR,1015,4420036.0
+votacao_candidato_municipio,2014,PE,SENADOR,832,4127982.0
+apuracao_municipio,2014,PE,DEPUTADO ESTADUAL,185,4171737.0
+apuracao_municipio,2014,PE,DEPUTADO FEDERAL,185,4129147.0
+apuracao_municipio,2014,PE,GOVERNADOR,185,4420036.0
+apuracao_municipio,2014,PE,SENADOR,185,4127982.0
+candidatos,2014,PI,*,403,
+votacao_candidato_municipio,2014,PI,DEPUTADO ESTADUAL,50624,1607165.0
+votacao_candidato_municipio,2014,PI,DEPUTADO FEDERAL,19712,1587477.0
+votacao_candidato_municipio,2014,PI,GOVERNADOR,1568,1669749.0
+votacao_candidato_municipio,2014,PI,SENADOR,1120,1575234.0
+apuracao_municipio,2014,PI,DEPUTADO ESTADUAL,224,1607165.0
+apuracao_municipio,2014,PI,DEPUTADO FEDERAL,224,1587477.0
+apuracao_municipio,2014,PI,GOVERNADOR,224,1669749.0
+apuracao_municipio,2014,PI,SENADOR,224,1575234.0
+candidatos,2014,PR,*,1236,
+votacao_candidato_municipio,2014,PR,DEPUTADO ESTADUAL,294462,5298846.0
+votacao_candidato_municipio,2014,PR,DEPUTADO FEDERAL,117705,5275880.0
+votacao_candidato_municipio,2014,PR,GOVERNADOR,3192,5929997.0
+votacao_candidato_municipio,2014,PR,SENADOR,3192,5326924.0
+apuracao_municipio,2014,PR,DEPUTADO ESTADUAL,399,5298846.0
+apuracao_municipio,2014,PR,DEPUTADO FEDERAL,399,5275880.0
+apuracao_municipio,2014,PR,GOVERNADOR,399,5929997.0
+apuracao_municipio,2014,PR,SENADOR,399,5326924.0
+candidatos,2014,RJ,*,3158,
+votacao_candidato_municipio,2014,RJ,DEPUTADO ESTADUAL,169832,7160081.0
+votacao_candidato_municipio,2014,RJ,DEPUTADO FEDERAL,87676,7079046.0
+votacao_candidato_municipio,2014,RJ,GOVERNADOR,828,15778223.0
+votacao_candidato_municipio,2014,RJ,SENADOR,736,7384906.0
+apuracao_municipio,2014,RJ,DEPUTADO ESTADUAL,92,7160081.0
+apuracao_municipio,2014,RJ,DEPUTADO FEDERAL,92,7079046.0
+apuracao_municipio,2014,RJ,GOVERNADOR,184,15778223.0
+apuracao_municipio,2014,RJ,SENADOR,92,7384906.0
+candidatos,2014,RN,*,402,
+votacao_candidato_municipio,2014,RN,DEPUTADO ESTADUAL,40748,1529149.0
+votacao_candidato_municipio,2014,RN,DEPUTADO FEDERAL,13861,1451341.0
+votacao_candidato_municipio,2014,RN,GOVERNADOR,1169,3095440.0
+votacao_candidato_municipio,2014,RN,SENADOR,835,1473368.0
+apuracao_municipio,2014,RN,DEPUTADO ESTADUAL,167,1529149.0
+apuracao_municipio,2014,RN,DEPUTADO FEDERAL,167,1451341.0
+apuracao_municipio,2014,RN,GOVERNADOR,334,3095440.0
+apuracao_municipio,2014,RN,SENADOR,167,1473368.0
+candidatos,2014,RO,*,567,
+votacao_candidato_municipio,2014,RO,DEPUTADO ESTADUAL,19864,761590.0
+votacao_candidato_municipio,2014,RO,DEPUTADO FEDERAL,4212,740924.0
+votacao_candidato_municipio,2014,RO,GOVERNADOR,360,1589658.0
+votacao_candidato_municipio,2014,RO,SENADOR,208,744627.0
+apuracao_municipio,2014,RO,DEPUTADO ESTADUAL,52,761590.0
+apuracao_municipio,2014,RO,DEPUTADO FEDERAL,52,740924.0
+apuracao_municipio,2014,RO,GOVERNADOR,104,1589658.0
+apuracao_municipio,2014,RO,SENADOR,52,744627.0
+candidatos,2014,RR,*,537,
+votacao_candidato_municipio,2014,RR,DEPUTADO ESTADUAL,5895,242398.0
+votacao_candidato_municipio,2014,RR,DEPUTADO FEDERAL,1200,225631.0
+votacao_candidato_municipio,2014,RR,GOVERNADOR,90,475240.0
+votacao_candidato_municipio,2014,RR,SENADOR,90,234947.0
+apuracao_municipio,2014,RR,DEPUTADO ESTADUAL,15,242398.0
+apuracao_municipio,2014,RR,DEPUTADO FEDERAL,15,225631.0
+apuracao_municipio,2014,RR,GOVERNADOR,30,475240.0
+apuracao_municipio,2014,RR,SENADOR,15,234947.0
+candidatos,2014,RS,*,1088,
+votacao_candidato_municipio,2014,RS,DEPUTADO ESTADUAL,332990,5592657.0
+votacao_candidato_municipio,2014,RS,DEPUTADO FEDERAL,153076,5501353.0
+votacao_candidato_municipio,2014,RS,GOVERNADOR,4099,12463629.0
+votacao_candidato_municipio,2014,RS,SENADOR,3025,5733468.0
+apuracao_municipio,2014,RS,DEPUTADO ESTADUAL,497,5592657.0
+apuracao_municipio,2014,RS,DEPUTADO FEDERAL,497,5501353.0
+apuracao_municipio,2014,RS,GOVERNADOR,994,12463629.0
+apuracao_municipio,2014,RS,SENADOR,497,5733468.0
+candidatos,2014,SC,*,676,
+votacao_candidato_municipio,2014,SC,DEPUTADO ESTADUAL,120655,3287585.0
+votacao_candidato_municipio,2014,SC,DEPUTADO FEDERAL,37760,3135381.0
+votacao_candidato_municipio,2014,SC,GOVERNADOR,2360,3433761.0
+votacao_candidato_municipio,2014,SC,SENADOR,2065,3056107.0
+apuracao_municipio,2014,SC,DEPUTADO ESTADUAL,295,3287585.0
+apuracao_municipio,2014,SC,DEPUTADO FEDERAL,295,3135381.0
+apuracao_municipio,2014,SC,GOVERNADOR,295,3433761.0
+apuracao_municipio,2014,SC,SENADOR,295,3056107.0
+candidatos,2014,SE,*,303,
+votacao_candidato_municipio,2014,SE,DEPUTADO ESTADUAL,12150,967550.0
+votacao_candidato_municipio,2014,SE,DEPUTADO FEDERAL,5475,974311.0
+votacao_candidato_municipio,2014,SE,GOVERNADOR,363,1004802.0
+votacao_candidato_municipio,2014,SE,SENADOR,373,916104.0
+apuracao_municipio,2014,SE,DEPUTADO ESTADUAL,75,967550.0
+apuracao_municipio,2014,SE,DEPUTADO FEDERAL,75,974311.0
+apuracao_municipio,2014,SE,GOVERNADOR,75,1004802.0
+apuracao_municipio,2014,SE,SENADOR,75,916104.0
+candidatos,2014,SP,*,3664,
+votacao_candidato_municipio,2014,SP,DEPUTADO ESTADUAL,1211310,17595474.0
+votacao_candidato_municipio,2014,SP,DEPUTADO FEDERAL,850110,19072417.0
+votacao_candidato_municipio,2014,SP,GOVERNADOR,5805,21341222.0
+votacao_candidato_municipio,2014,SP,SENADOR,6450,19174679.0
+apuracao_municipio,2014,SP,DEPUTADO ESTADUAL,645,17595474.0
+apuracao_municipio,2014,SP,DEPUTADO FEDERAL,645,19072417.0
+apuracao_municipio,2014,SP,GOVERNADOR,645,21341222.0
+apuracao_municipio,2014,SP,SENADOR,645,19174679.0
+candidatos,2014,TO,*,391,
+votacao_candidato_municipio,2014,TO,DEPUTADO ESTADUAL,33082,699008.0
+votacao_candidato_municipio,2014,TO,DEPUTADO FEDERAL,6533,670894.0
+votacao_candidato_municipio,2014,TO,GOVERNADOR,1946,1768389.0
+votacao_candidato_municipio,2014,TO,SENADOR,695,677293.0
+apuracao_municipio,2014,TO,DEPUTADO ESTADUAL,139,699008.0
+apuracao_municipio,2014,TO,DEPUTADO FEDERAL,139,670894.0
+apuracao_municipio,2014,TO,GOVERNADOR,279,1768389.0
+apuracao_municipio,2014,TO,SENADOR,139,677293.0
+candidatos,2016,BR,*,498163,
+candidatos,2016,AC,*,2312,
+votacao_candidato_municipio,2016,AC,PREFEITO,78,410920.0
+votacao_candidato_municipio,2016,AC,VEREADOR,2025,386315.0
+apuracao_municipio,2016,AC,PREFEITO,22,410920.0
+apuracao_municipio,2016,AC,VEREADOR,22,417134.0
+candidatos,2016,AL,*,7282,
+votacao_candidato_municipio,2016,AL,PREFEITO,305,2040257.0
+votacao_candidato_municipio,2016,AL,VEREADOR,6242,1555736.0
+apuracao_municipio,2016,AL,PREFEITO,103,2040257.0
+apuracao_municipio,2016,AL,VEREADOR,102,1671238.0
+candidatos,2016,AM,*,9586,
+votacao_candidato_municipio,2016,AM,PREFEITO,254,2918458.0
+votacao_candidato_municipio,2016,AM,VEREADOR,8114,1761064.0
+apuracao_municipio,2016,AM,PREFEITO,63,2918458.0
+apuracao_municipio,2016,AM,VEREADOR,62,1861846.0
+candidatos,2016,AP,*,1886,
+votacao_candidato_municipio,2016,AP,PREFEITO,73,588590.0
+votacao_candidato_municipio,2016,AP,VEREADOR,1616,371093.0
+apuracao_municipio,2016,AP,PREFEITO,17,588590.0
+apuracao_municipio,2016,AP,VEREADOR,16,389201.0
+candidatos,2016,BA,*,36826,
+votacao_candidato_municipio,2016,BA,PREFEITO,1180,7960553.0
+votacao_candidato_municipio,2016,BA,VEREADOR,31986,7322493.0
+apuracao_municipio,2016,BA,PREFEITO,418,7960553.0
+apuracao_municipio,2016,BA,VEREADOR,417,7924739.0
+candidatos,2016,CE,*,14980,
+votacao_candidato_municipio,2016,CE,PREFEITO,502,6469181.0
+votacao_candidato_municipio,2016,CE,VEREADOR,12795,4719944.0
+apuracao_municipio,2016,CE,PREFEITO,186,6469181.0
+apuracao_municipio,2016,CE,VEREADOR,184,5043859.0
+candidatos,2016,ES,*,10493,
+votacao_candidato_municipio,2016,ES,PREFEITO,277,2821884.0
+votacao_candidato_municipio,2016,ES,VEREADOR,9197,1942521.0
+apuracao_municipio,2016,ES,PREFEITO,82,2821884.0
+apuracao_municipio,2016,ES,VEREADOR,78,2062399.0
+candidatos,2016,GO,*,21308,
+votacao_candidato_municipio,2016,GO,PREFEITO,687,4305689.0
+votacao_candidato_municipio,2016,GO,VEREADOR,18524,3284804.0
+apuracao_municipio,2016,GO,PREFEITO,248,4305689.0
+apuracao_municipio,2016,GO,VEREADOR,246,3490154.0
+candidatos,2016,MA,*,18571,
+votacao_candidato_municipio,2016,MA,PREFEITO,661,4190194.0
+votacao_candidato_municipio,2016,MA,VEREADOR,16031,3466650.0
+apuracao_municipio,2016,MA,PREFEITO,218,4192511.0
+apuracao_municipio,2016,MA,VEREADOR,217,3699749.0
+candidatos,2016,MG,*,78908,
+votacao_candidato_municipio,2016,MG,PREFEITO,2379,13330712.0
+votacao_candidato_municipio,2016,MG,VEREADOR,69888,10788874.0
+apuracao_municipio,2016,MG,PREFEITO,857,13330712.0
+apuracao_municipio,2016,MG,VEREADOR,853,11562656.0
+candidatos,2016,MS,*,7409,
+votacao_candidato_municipio,2016,MS,PREFEITO,233,1824317.0
+votacao_candidato_municipio,2016,MS,VEREADOR,6477,1292822.0
+apuracao_municipio,2016,MS,PREFEITO,80,1824317.0
+apuracao_municipio,2016,MS,VEREADOR,79,1386350.0
+candidatos,2016,MT,*,10443,
+votacao_candidato_municipio,2016,MT,PREFEITO,379,1900039.0
+votacao_candidato_municipio,2016,MT,VEREADOR,9029,1575953.0
+apuracao_municipio,2016,MT,PREFEITO,142,1900039.0
+apuracao_municipio,2016,MT,VEREADOR,141,1677083.0
+candidatos,2016,PA,*,20635,
+votacao_candidato_municipio,2016,PA,PREFEITO,516,5005358.0
+votacao_candidato_municipio,2016,PA,VEREADOR,18036,4061894.0
+apuracao_municipio,2016,PA,PREFEITO,145,5005358.0
+apuracao_municipio,2016,PA,VEREADOR,144,4318683.0
+candidatos,2016,PB,*,12006,
+votacao_candidato_municipio,2016,PB,PREFEITO,542,2340011.0
+votacao_candidato_municipio,2016,PB,VEREADOR,10320,2218039.0
+apuracao_municipio,2016,PB,PREFEITO,223,2340011.0
+apuracao_municipio,2016,PB,VEREADOR,223,2356731.0
+candidatos,2016,PE,*,19127,
+votacao_candidato_municipio,2016,PE,PREFEITO,559,6598632.0
+votacao_candidato_municipio,2016,PE,VEREADOR,16672,4827002.0
+apuracao_municipio,2016,PE,PREFEITO,188,6598632.0
+apuracao_municipio,2016,PE,VEREADOR,184,5146760.0
+candidatos,2016,PI,*,10202,
+votacao_candidato_municipio,2016,PI,PREFEITO,547,1963600.0
+votacao_candidato_municipio,2016,PI,VEREADOR,8615,1860883.0
+apuracao_municipio,2016,PI,PREFEITO,224,1963600.0
+apuracao_municipio,2016,PI,VEREADOR,224,1989974.0
+candidatos,2016,PR,*,31402,
+votacao_candidato_municipio,2016,PR,PREFEITO,1084,7338513.0
+votacao_candidato_municipio,2016,PR,VEREADOR,27541,5699902.0
+apuracao_municipio,2016,PR,PREFEITO,402,7338513.0
+apuracao_municipio,2016,PR,VEREADOR,399,6057836.0
+candidatos,2016,RJ,*,22387,
+votacao_candidato_municipio,2016,RJ,PREFEITO,459,13071664.0
+votacao_candidato_municipio,2016,RJ,VEREADOR,19171,7598975.0
+apuracao_municipio,2016,RJ,PREFEITO,100,13071664.0
+apuracao_municipio,2016,RJ,VEREADOR,92,8268286.0
+candidatos,2016,RN,*,9194,
+votacao_candidato_municipio,2016,RN,PREFEITO,453,1977223.0
+votacao_candidato_municipio,2016,RN,VEREADOR,7718,1822455.0
+apuracao_municipio,2016,RN,PREFEITO,167,1977223.0
+apuracao_municipio,2016,RN,VEREADOR,167,1927884.0
+candidatos,2016,RO,*,4703,
+votacao_candidato_municipio,2016,RO,PREFEITO,156,1095345.0
+votacao_candidato_municipio,2016,RO,VEREADOR,4138,803920.0
+apuracao_municipio,2016,RO,PREFEITO,53,1095345.0
+apuracao_municipio,2016,RO,VEREADOR,52,859032.0
+candidatos,2016,RR,*,1789,
+votacao_candidato_municipio,2016,RR,PREFEITO,69,247707.0
+votacao_candidato_municipio,2016,RR,VEREADOR,1407,238812.0
+apuracao_municipio,2016,RR,PREFEITO,15,247707.0
+apuracao_municipio,2016,RR,VEREADOR,15,249902.0
+candidatos,2016,RS,*,28918,
+votacao_candidato_municipio,2016,RS,PREFEITO,1258,7622518.0
+votacao_candidato_municipio,2016,RS,VEREADOR,25215,5975535.0
+apuracao_municipio,2016,RS,PREFEITO,501,7622518.0
+apuracao_municipio,2016,RS,VEREADOR,497,6364516.0
+candidatos,2016,SC,*,17665,
+votacao_candidato_municipio,2016,SC,PREFEITO,751,4682268.0
+votacao_candidato_municipio,2016,SC,VEREADOR,15409,3757400.0
+apuracao_municipio,2016,SC,PREFEITO,298,4682268.0
+apuracao_municipio,2016,SC,VEREADOR,295,3964590.0
+candidatos,2016,SE,*,5907,
+votacao_candidato_municipio,2016,SE,PREFEITO,223,1417227.0
+votacao_candidato_municipio,2016,SE,VEREADOR,5003,1150420.0
+apuracao_municipio,2016,SE,PREFEITO,76,1417227.0
+apuracao_municipio,2016,SE,VEREADOR,75,1224674.0
+candidatos,2016,SP,*,86729,
+votacao_candidato_municipio,2016,SP,PREFEITO,2136,24944983.0
+votacao_candidato_municipio,2016,SP,VEREADOR,76128,19110103.0
+apuracao_municipio,2016,SP,PREFEITO,658,25118199.0
+apuracao_municipio,2016,SP,VEREADOR,645,21829546.0
+candidatos,2016,TO,*,7495,
+votacao_candidato_municipio,2016,TO,PREFEITO,387,838666.0
+votacao_candidato_municipio,2016,TO,VEREADOR,6308,802165.0
+apuracao_municipio,2016,TO,PREFEITO,139,838666.0
+apuracao_municipio,2016,TO,VEREADOR,139,853739.0
+candidatos,2018,BR,*,29227,
+candidatos,2018,AC,*,597,
+votacao_candidato_municipio,2018,AC,DEPUTADO ESTADUAL,9592,382394.0
+votacao_candidato_municipio,2018,AC,DEPUTADO FEDERAL,1782,390515.0
+votacao_candidato_municipio,2018,AC,GOVERNADOR,110,417076.0
+votacao_candidato_municipio,2018,AC,SENADOR,132,794909.0
+apuracao_municipio,2018,AC,DEPUTADO ESTADUAL,22,418021.0
+apuracao_municipio,2018,AC,DEPUTADO FEDERAL,22,417502.0
+apuracao_municipio,2018,AC,GOVERNADOR,22,417076.0
+apuracao_municipio,2018,AC,SENADOR,22,794909.0
+candidatos,2018,AL,*,461,
+votacao_candidato_municipio,2018,AL,DEPUTADO ESTADUAL,28662,1360356.0
+votacao_candidato_municipio,2018,AL,DEPUTADO FEDERAL,7344,1357732.0
+votacao_candidato_municipio,2018,AL,GOVERNADOR,408,1295083.0
+votacao_candidato_municipio,2018,AL,SENADOR,816,2602484.0
+apuracao_municipio,2018,AL,DEPUTADO ESTADUAL,102,1495861.0
+apuracao_municipio,2018,AL,DEPUTADO FEDERAL,102,1460767.0
+apuracao_municipio,2018,AL,GOVERNADOR,102,1295083.0
+apuracao_municipio,2018,AL,SENADOR,102,2602484.0
+candidatos,2018,AM,*,855,
+votacao_candidato_municipio,2018,AM,DEPUTADO ESTADUAL,35836,1684925.0
+votacao_candidato_municipio,2018,AM,DEPUTADO FEDERAL,7812,1669666.0
+votacao_candidato_municipio,2018,AM,GOVERNADOR,558,3536136.0
+votacao_candidato_municipio,2018,AM,SENADOR,496,3292236.0
+apuracao_municipio,2018,AM,DEPUTADO ESTADUAL,62,1789077.0
+apuracao_municipio,2018,AM,DEPUTADO FEDERAL,62,1763198.0
+apuracao_municipio,2018,AM,GOVERNADOR,124,3536136.0
+apuracao_municipio,2018,AM,SENADOR,62,3292236.0
+candidatos,2018,AP,*,664,
+votacao_candidato_municipio,2018,AP,DEPUTADO ESTADUAL,6896,384960.0
+votacao_candidato_municipio,2018,AP,DEPUTADO FEDERAL,1552,348978.0
+votacao_candidato_municipio,2018,AP,GOVERNADOR,112,763288.0
+votacao_candidato_municipio,2018,AP,SENADOR,144,572432.0
+apuracao_municipio,2018,AP,DEPUTADO ESTADUAL,16,403371.0
+apuracao_municipio,2018,AP,DEPUTADO FEDERAL,16,364871.0
+apuracao_municipio,2018,AP,GOVERNADOR,32,763288.0
+apuracao_municipio,2018,AP,SENADOR,16,572432.0
+candidatos,2018,BA,*,1196,
+votacao_candidato_municipio,2018,BA,DEPUTADO ESTADUAL,240192,6030255.0
+votacao_candidato_municipio,2018,BA,DEPUTADO FEDERAL,186399,6188207.0
+votacao_candidato_municipio,2018,BA,GOVERNADOR,2823,6749554.0
+votacao_candidato_municipio,2018,BA,SENADOR,4546,11910849.0
+apuracao_municipio,2018,BA,DEPUTADO ESTADUAL,417,6840161.0
+apuracao_municipio,2018,BA,DEPUTADO FEDERAL,417,6868013.0
+apuracao_municipio,2018,BA,GOVERNADOR,417,6749554.0
+apuracao_municipio,2018,BA,SENADOR,417,11910849.0
+candidatos,2018,CE,*,915,
+votacao_candidato_municipio,2018,CE,DEPUTADO ESTADUAL,95496,4213546.0
+votacao_candidato_municipio,2018,CE,DEPUTADO FEDERAL,42136,4300972.0
+votacao_candidato_municipio,2018,CE,GOVERNADOR,920,4324121.0
+votacao_candidato_municipio,2018,CE,SENADOR,1656,7757861.0
+apuracao_municipio,2018,CE,DEPUTADO ESTADUAL,184,4579947.0
+apuracao_municipio,2018,CE,DEPUTADO FEDERAL,184,4596080.0
+apuracao_municipio,2018,CE,GOVERNADOR,184,4324121.0
+apuracao_municipio,2018,CE,SENADOR,184,7757861.0
+candidatos,2018,DF,*,1258,
+votacao_candidato_municipio,2018,DF,DEPUTADO DISTRITAL,917,1416104.0
+votacao_candidato_municipio,2018,DF,DEPUTADO FEDERAL,162,1353183.0
+votacao_candidato_municipio,2018,DF,GOVERNADOR,12,3004371.0
+votacao_candidato_municipio,2018,DF,SENADOR,15,2634417.0
+apuracao_municipio,2018,DF,DEPUTADO DISTRITAL,1,1497236.0
+apuracao_municipio,2018,DF,DEPUTADO FEDERAL,1,1439876.0
+apuracao_municipio,2018,DF,GOVERNADOR,2,3004371.0
+apuracao_municipio,2018,DF,SENADOR,1,2634417.0
+candidatos,2018,ES,*,833,
+votacao_candidato_municipio,2018,ES,DEPUTADO ESTADUAL,45396,1824614.0
+votacao_candidato_municipio,2018,ES,DEPUTADO FEDERAL,12246,1810909.0
+votacao_candidato_municipio,2018,ES,GOVERNADOR,468,1932301.0
+votacao_candidato_municipio,2018,ES,SENADOR,858,3586088.0
+apuracao_municipio,2018,ES,DEPUTADO ESTADUAL,78,1950673.0
+apuracao_municipio,2018,ES,DEPUTADO FEDERAL,78,1933018.0
+apuracao_municipio,2018,ES,GOVERNADOR,78,1932301.0
+apuracao_municipio,2018,ES,SENADOR,78,3586088.0
+candidatos,2018,GO,*,1194,
+votacao_candidato_municipio,2018,GO,DEPUTADO ESTADUAL,196062,2861366.0
+votacao_candidato_municipio,2018,GO,DEPUTADO FEDERAL,48462,2830463.0
+votacao_candidato_municipio,2018,GO,GOVERNADOR,1722,2968733.0
+votacao_candidato_municipio,2018,GO,SENADOR,2460,5517329.0
+apuracao_municipio,2018,GO,DEPUTADO ESTADUAL,246,3081956.0
+apuracao_municipio,2018,GO,DEPUTADO FEDERAL,246,3031931.0
+apuracao_municipio,2018,GO,GOVERNADOR,246,2968733.0
+apuracao_municipio,2018,GO,SENADOR,246,5517329.0
+candidatos,2018,MA,*,796,
+votacao_candidato_municipio,2018,MA,DEPUTADO ESTADUAL,99820,2953877.0
+votacao_candidato_municipio,2018,MA,DEPUTADO FEDERAL,40579,3020571.0
+votacao_candidato_municipio,2018,MA,GOVERNADOR,1294,3149910.0
+votacao_candidato_municipio,2018,MA,SENADOR,2379,5704126.0
+apuracao_municipio,2018,MA,DEPUTADO ESTADUAL,217,3256285.0
+apuracao_municipio,2018,MA,DEPUTADO FEDERAL,217,3270678.0
+apuracao_municipio,2018,MA,GOVERNADOR,217,3149910.0
+apuracao_municipio,2018,MA,SENADOR,217,5704126.0
+candidatos,2018,MG,*,2425,
+votacao_candidato_municipio,2018,MG,DEPUTADO ESTADUAL,1070515,9192452.0
+votacao_candidato_municipio,2018,MG,DEPUTADO FEDERAL,703725,9430120.0
+votacao_candidato_municipio,2018,MG,GOVERNADOR,8220,19385505.0
+votacao_candidato_municipio,2018,MG,SENADOR,11773,17648612.0
+apuracao_municipio,2018,MG,DEPUTADO ESTADUAL,853,10127995.0
+apuracao_municipio,2018,MG,DEPUTADO FEDERAL,853,10087536.0
+apuracao_municipio,2018,MG,GOVERNADOR,1706,19385505.0
+apuracao_municipio,2018,MG,SENADOR,853,17648612.0
+candidatos,2018,MS,*,541,
+votacao_candidato_municipio,2018,MS,DEPUTADO ESTADUAL,25438,1180209.0
+votacao_candidato_municipio,2018,MS,DEPUTADO FEDERAL,9243,1143347.0
+votacao_candidato_municipio,2018,MS,GOVERNADOR,632,2587086.0
+votacao_candidato_municipio,2018,MS,SENADOR,790,2198594.0
+apuracao_municipio,2018,MS,DEPUTADO ESTADUAL,79,1283007.0
+apuracao_municipio,2018,MS,DEPUTADO FEDERAL,79,1240027.0
+apuracao_municipio,2018,MS,GOVERNADOR,158,2587086.0
+apuracao_municipio,2018,MS,SENADOR,79,2198594.0
+candidatos,2018,MT,*,615,
+votacao_candidato_municipio,2018,MT,DEPUTADO ESTADUAL,46389,1397024.0
+votacao_candidato_municipio,2018,MT,DEPUTADO FEDERAL,15510,1298008.0
+votacao_candidato_municipio,2018,MT,GOVERNADOR,705,1431514.0
+votacao_candidato_municipio,2018,MT,SENADOR,2961,3514992.0
+apuracao_municipio,2018,MT,DEPUTADO ESTADUAL,141,1515319.0
+apuracao_municipio,2018,MT,DEPUTADO FEDERAL,141,1408190.0
+apuracao_municipio,2018,MT,GOVERNADOR,141,1431514.0
+apuracao_municipio,2018,MT,SENADOR,141,3514992.0
+candidatos,2018,PA,*,899,
+votacao_candidato_municipio,2018,PA,DEPUTADO ESTADUAL,91152,3687051.0
+votacao_candidato_municipio,2018,PA,DEPUTADO FEDERAL,18576,3690184.0
+votacao_candidato_municipio,2018,PA,GOVERNADOR,1007,7559840.0
+votacao_candidato_municipio,2018,PA,SENADOR,1725,7007044.0
+apuracao_municipio,2018,PA,DEPUTADO ESTADUAL,144,4019096.0
+apuracao_municipio,2018,PA,DEPUTADO FEDERAL,144,3956457.0
+apuracao_municipio,2018,PA,GOVERNADOR,288,7559840.0
+apuracao_municipio,2018,PA,SENADOR,144,7007044.0
+candidatos,2018,PB,*,621,
+votacao_candidato_municipio,2018,PB,DEPUTADO ESTADUAL,81618,1891169.0
+votacao_candidato_municipio,2018,PB,DEPUTADO FEDERAL,30551,1847457.0
+votacao_candidato_municipio,2018,PB,GOVERNADOR,1115,1924555.0
+votacao_candidato_municipio,2018,PB,SENADOR,1561,3429862.0
+apuracao_municipio,2018,PB,DEPUTADO ESTADUAL,223,2051415.0
+apuracao_municipio,2018,PB,DEPUTADO FEDERAL,223,1989377.0
+apuracao_municipio,2018,PB,GOVERNADOR,223,1924555.0
+apuracao_municipio,2018,PB,SENADOR,223,3429862.0
+candidatos,2018,PE,*,1095,
+votacao_candidato_municipio,2018,PE,DEPUTADO ESTADUAL,115070,4178213.0
+votacao_candidato_municipio,2018,PE,DEPUTADO FEDERAL,60310,4027151.0
+votacao_candidato_municipio,2018,PE,GOVERNADOR,1110,3783165.0
+votacao_candidato_municipio,2018,PE,SENADOR,2035,6653095.0
+apuracao_municipio,2018,PE,CONSELHEIRO DISTRITAL,1,1836.0
+apuracao_municipio,2018,PE,DEPUTADO ESTADUAL,185,4511453.0
+apuracao_municipio,2018,PE,DEPUTADO FEDERAL,185,4331764.0
+apuracao_municipio,2018,PE,GOVERNADOR,185,3783165.0
+apuracao_municipio,2018,PE,SENADOR,185,6653095.0
+candidatos,2018,PI,*,439,
+votacao_candidato_municipio,2018,PI,DEPUTADO ESTADUAL,45472,1648383.0
+votacao_candidato_municipio,2018,PI,DEPUTADO FEDERAL,27552,1647120.0
+votacao_candidato_municipio,2018,PI,GOVERNADOR,2240,1736845.0
+votacao_candidato_municipio,2018,PI,SENADOR,3808,3001133.0
+apuracao_municipio,2018,PI,DEPUTADO ESTADUAL,224,1816803.0
+apuracao_municipio,2018,PI,DEPUTADO FEDERAL,224,1787802.0
+apuracao_municipio,2018,PI,GOVERNADOR,224,1736845.0
+apuracao_municipio,2018,PI,SENADOR,224,3001133.0
+candidatos,2018,PR,*,1288,
+votacao_candidato_municipio,2018,PR,DEPUTADO ESTADUAL,280896,4852937.0
+votacao_candidato_municipio,2018,PR,DEPUTADO FEDERAL,165585,5390730.0
+votacao_candidato_municipio,2018,PR,GOVERNADOR,3591,5352022.0
+votacao_candidato_municipio,2018,PR,SENADOR,5187,9759065.0
+apuracao_municipio,2018,PR,DEPUTADO ESTADUAL,399,5260710.0
+apuracao_municipio,2018,PR,DEPUTADO FEDERAL,399,5709044.0
+apuracao_municipio,2018,PR,GOVERNADOR,399,5352022.0
+apuracao_municipio,2018,PR,SENADOR,399,9759065.0
+candidatos,2018,RJ,*,3695,
+votacao_candidato_municipio,2018,RJ,DEPUTADO ESTADUAL,206264,7033278.0
+votacao_candidato_municipio,2018,RJ,DEPUTADO FEDERAL,96232,7254297.0
+votacao_candidato_municipio,2018,RJ,GOVERNADOR,1104,15451930.0
+votacao_candidato_municipio,2018,RJ,SENADOR,1380,13965981.0
+apuracao_municipio,2018,RJ,DEPUTADO ESTADUAL,92,7721566.0
+apuracao_municipio,2018,RJ,DEPUTADO FEDERAL,92,7733626.0
+apuracao_municipio,2018,RJ,GOVERNADOR,184,15451930.0
+apuracao_municipio,2018,RJ,SENADOR,92,13965981.0
+candidatos,2018,RN,*,512,
+votacao_candidato_municipio,2018,RN,DEPUTADO ESTADUAL,50100,1545812.0
+votacao_candidato_municipio,2018,RN,DEPUTADO FEDERAL,18871,1509763.0
+votacao_candidato_municipio,2018,RN,GOVERNADOR,1670,3396489.0
+votacao_candidato_municipio,2018,RN,SENADOR,2338,2909592.0
+apuracao_municipio,2018,RN,DEPUTADO ESTADUAL,167,1667434.0
+apuracao_municipio,2018,RN,DEPUTADO FEDERAL,167,1618823.0
+apuracao_municipio,2018,RN,GOVERNADOR,334,3396489.0
+apuracao_municipio,2018,RN,SENADOR,167,2909592.0
+candidatos,2018,RO,*,655,
+votacao_candidato_municipio,2018,RO,DEPUTADO ESTADUAL,17836,679360.0
+votacao_candidato_municipio,2018,RO,DEPUTADO FEDERAL,4784,734338.0
+votacao_candidato_municipio,2018,RO,GOVERNADOR,416,1564862.0
+votacao_candidato_municipio,2018,RO,SENADOR,520,1350564.0
+apuracao_municipio,2018,RO,DEPUTADO ESTADUAL,52,744799.0
+apuracao_municipio,2018,RO,DEPUTADO FEDERAL,52,783305.0
+apuracao_municipio,2018,RO,GOVERNADOR,104,1564862.0
+apuracao_municipio,2018,RO,SENADOR,52,1350564.0
+candidatos,2018,RR,*,683,
+votacao_candidato_municipio,2018,RR,DEPUTADO ESTADUAL,5640,224853.0
+votacao_candidato_municipio,2018,RR,DEPUTADO FEDERAL,1995,249730.0
+votacao_candidato_municipio,2018,RR,GOVERNADOR,105,524546.0
+votacao_candidato_municipio,2018,RR,SENADOR,150,495575.0
+apuracao_municipio,2018,RR,DEPUTADO ESTADUAL,15,236244.0
+apuracao_municipio,2018,RR,DEPUTADO FEDERAL,15,270708.0
+apuracao_municipio,2018,RR,GOVERNADOR,30,524546.0
+apuracao_municipio,2018,RR,SENADOR,15,495575.0
+candidatos,2018,RS,*,1340,
+votacao_candidato_municipio,2018,RS,DEPUTADO ESTADUAL,396606,5306850.0
+votacao_candidato_municipio,2018,RS,DEPUTADO FEDERAL,200788,5497531.0
+votacao_candidato_municipio,2018,RS,GOVERNADOR,4473,11804569.0
+votacao_candidato_municipio,2018,RS,SENADOR,6461,10556398.0
+apuracao_municipio,2018,RS,DEPUTADO ESTADUAL,497,5750361.0
+apuracao_municipio,2018,RS,DEPUTADO FEDERAL,497,5845077.0
+apuracao_municipio,2018,RS,GOVERNADOR,994,11804569.0
+apuracao_municipio,2018,RS,SENADOR,497,10556398.0
+candidatos,2018,SC,*,784,
+votacao_candidato_municipio,2018,SC,DEPUTADO ESTADUAL,127145,3429667.0
+votacao_candidato_municipio,2018,SC,DEPUTADO FEDERAL,68440,3332110.0
+votacao_candidato_municipio,2018,SC,GOVERNADOR,2950,7324688.0
+votacao_candidato_municipio,2018,SC,SENADOR,3835,6530439.0
+apuracao_municipio,2018,SC,DEPUTADO ESTADUAL,295,3663271.0
+apuracao_municipio,2018,SC,DEPUTADO FEDERAL,295,3548458.0
+apuracao_municipio,2018,SC,GOVERNADOR,590,7324688.0
+apuracao_municipio,2018,SC,SENADOR,295,6530439.0
+candidatos,2018,SE,*,526,
+votacao_candidato_municipio,2018,SE,DEPUTADO ESTADUAL,21450,988716.0
+votacao_candidato_municipio,2018,SE,DEPUTADO FEDERAL,8250,886780.0
+votacao_candidato_municipio,2018,SE,GOVERNADOR,825,2036497.0
+votacao_candidato_municipio,2018,SE,SENADOR,900,1828084.0
+apuracao_municipio,2018,SE,DEPUTADO ESTADUAL,75,1066624.0
+apuracao_municipio,2018,SE,DEPUTADO FEDERAL,75,953969.0
+apuracao_municipio,2018,SE,GOVERNADOR,150,2036497.0
+apuracao_municipio,2018,SE,SENADOR,75,1828084.0
+candidatos,2018,SP,*,3948,
+votacao_candidato_municipio,2018,SP,DEPUTADO ESTADUAL,1263555,18633278.0
+votacao_candidato_municipio,2018,SP,DEPUTADO FEDERAL,956535,19537230.0
+votacao_candidato_municipio,2018,SP,GOVERNADOR,7511,41485827.0
+votacao_candidato_municipio,2018,SP,SENADOR,10752,35029120.0
+apuracao_municipio,2018,SP,DEPUTADO ESTADUAL,645,20852681.0
+apuracao_municipio,2018,SP,DEPUTADO FEDERAL,645,21131103.0
+apuracao_municipio,2018,SP,GOVERNADOR,1290,41485827.0
+apuracao_municipio,2018,SP,SENADOR,645,35029120.0
+candidatos,2018,TO,*,364,
+votacao_candidato_municipio,2018,TO,DEPUTADO ESTADUAL,28773,686764.0
+votacao_candidato_municipio,2018,TO,DEPUTADO FEDERAL,11120,659286.0
+votacao_candidato_municipio,2018,TO,GOVERNADOR,695,704803.0
+votacao_candidato_municipio,2018,TO,SENADOR,1251,1274703.0
+apuracao_municipio,2018,TO,DEPUTADO ESTADUAL,139,746638.0
+apuracao_municipio,2018,TO,DEPUTADO FEDERAL,139,715942.0
+apuracao_municipio,2018,TO,GOVERNADOR,139,704803.0
+apuracao_municipio,2018,TO,SENADOR,139,1274703.0
+candidatos,2020,BR,*,558572,
+candidatos,2020,AC,*,3060,
+votacao_candidato_municipio,2020,AC,PREFEITO,90,572581.0
+votacao_candidato_municipio,2020,AC,VEREADOR,2663,388182.0
+apuracao_municipio,2020,AC,PREFEITO,23,572581.0
+apuracao_municipio,2020,AC,VEREADOR,22,412577.0
+candidatos,2020,AL,*,7602,
+votacao_candidato_municipio,2020,AL,PREFEITO,313,1971535.0
+votacao_candidato_municipio,2020,AL,VEREADOR,6236,1480560.0
+apuracao_municipio,2020,AL,PREFEITO,103,1971535.0
+apuracao_municipio,2020,AL,VEREADOR,102,1567711.0
+candidatos,2020,AM,*,10471,
+votacao_candidato_municipio,2020,AM,PREFEITO,270,2779997.0
+votacao_candidato_municipio,2020,AM,VEREADOR,9239,1767155.0
+apuracao_municipio,2020,AM,PREFEITO,63,2779997.0
+apuracao_municipio,2020,AM,VEREADOR,62,1856579.0
+candidatos,2020,AP,*,2494,
+votacao_candidato_municipio,2020,AP,PREFEITO,90,533851.0
+votacao_candidato_municipio,2020,AP,VEREADOR,2114,361499.0
+apuracao_municipio,2020,AP,PREFEITO,17,533851.0
+apuracao_municipio,2020,AP,VEREADOR,16,375530.0
+candidatos,2020,BA,*,41611,
+votacao_candidato_municipio,2020,BA,PREFEITO,1284,8373803.0
+votacao_candidato_municipio,2020,BA,VEREADOR,36592,7424829.0
+apuracao_municipio,2020,BA,PREFEITO,419,8373803.0
+apuracao_municipio,2020,BA,VEREADOR,417,7937124.0
+candidatos,2020,CE,*,16279,
+votacao_candidato_municipio,2020,CE,PREFEITO,567,6519771.0
+votacao_candidato_municipio,2020,CE,VEREADOR,13830,4727172.0
+apuracao_municipio,2020,CE,PREFEITO,186,6519771.0
+apuracao_municipio,2020,CE,VEREADOR,184,5005496.0
+candidatos,2020,ES,*,12594,
+votacao_candidato_municipio,2020,ES,PREFEITO,370,2701628.0
+votacao_candidato_municipio,2020,ES,VEREADOR,10779,1764787.0
+apuracao_municipio,2020,ES,PREFEITO,82,2701628.0
+apuracao_municipio,2020,ES,VEREADOR,78,1859421.0
+candidatos,2020,GO,*,25005,
+votacao_candidato_municipio,2020,GO,PREFEITO,839,3926547.0
+votacao_candidato_municipio,2020,GO,VEREADOR,21578,2994944.0
+apuracao_municipio,2020,GO,PREFEITO,248,3926547.0
+apuracao_municipio,2020,GO,VEREADOR,246,3161078.0
+candidatos,2020,MA,*,20790,
+votacao_candidato_municipio,2020,MA,PREFEITO,738,4142287.0
+votacao_candidato_municipio,2020,MA,VEREADOR,17994,3449012.0
+apuracao_municipio,2020,MA,PREFEITO,218,4142287.0
+apuracao_municipio,2020,MA,VEREADOR,217,3633785.0
+candidatos,2020,MG,*,81789,
+votacao_candidato_municipio,2020,MG,PREFEITO,2698,11832338.0
+votacao_candidato_municipio,2020,MG,VEREADOR,73079,10335608.0
+apuracao_municipio,2020,MG,PREFEITO,857,11832338.0
+apuracao_municipio,2020,MG,VEREADOR,853,10972730.0
+candidatos,2020,MS,*,8697,
+votacao_candidato_municipio,2020,MS,PREFEITO,282,1289958.0
+votacao_candidato_municipio,2020,MS,VEREADOR,7636,1270808.0
+apuracao_municipio,2020,MS,PREFEITO,79,1289958.0
+apuracao_municipio,2020,MS,VEREADOR,79,1343099.0
+candidatos,2020,MT,*,12870,
+votacao_candidato_municipio,2020,MT,PREFEITO,466,1869740.0
+votacao_candidato_municipio,2020,MT,VEREADOR,11238,1531187.0
+apuracao_municipio,2020,MT,PREFEITO,142,1869740.0
+apuracao_municipio,2020,MT,VEREADOR,141,1601225.0
+candidatos,2020,PA,*,23655,
+votacao_candidato_municipio,2020,PA,PREFEITO,626,5265273.0
+votacao_candidato_municipio,2020,PA,VEREADOR,20582,3976813.0
+apuracao_municipio,2020,PA,PREFEITO,146,5265273.0
+apuracao_municipio,2020,PA,VEREADOR,144,4192999.0
+candidatos,2020,PB,*,12614,
+votacao_candidato_municipio,2020,PB,PREFEITO,603,2640913.0
+votacao_candidato_municipio,2020,PB,VEREADOR,10289,2112424.0
+apuracao_municipio,2020,PB,PREFEITO,224,2640913.0
+apuracao_municipio,2020,PB,VEREADOR,223,2221799.0
+candidatos,2020,PE,*,21141,
+votacao_candidato_municipio,2020,PE,PREFEITO,623,5854892.0
+votacao_candidato_municipio,2020,PE,VEREADOR,18143,4565374.0
+apuracao_municipio,2020,PE,PREFEITO,188,5854892.0
+apuracao_municipio,2020,PE,VEREADOR,184,4828301.0
+candidatos,2020,PI,*,10702,
+votacao_candidato_municipio,2020,PI,PREFEITO,573,2330201.0
+votacao_candidato_municipio,2020,PI,VEREADOR,9047,1861308.0
+apuracao_municipio,2020,PI,PREFEITO,225,2330201.0
+apuracao_municipio,2020,PI,VEREADOR,224,1957933.0
+candidatos,2020,PR,*,37076,
+votacao_candidato_municipio,2020,PR,PREFEITO,1289,5818541.0
+votacao_candidato_municipio,2020,PR,VEREADOR,32632,5301319.0
+apuracao_municipio,2020,PR,PREFEITO,400,5818541.0
+apuracao_municipio,2020,PR,VEREADOR,399,5607729.0
+candidatos,2020,RJ,*,26599,
+votacao_candidato_municipio,2020,RJ,PREFEITO,554,10994002.0
+votacao_candidato_municipio,2020,RJ,VEREADOR,23080,7164261.0
+apuracao_municipio,2020,RJ,PREFEITO,97,10994002.0
+apuracao_municipio,2020,RJ,VEREADOR,92,7603709.0
+candidatos,2020,RN,*,10583,
+votacao_candidato_municipio,2020,RN,PREFEITO,494,1895501.0
+votacao_candidato_municipio,2020,RN,VEREADOR,8940,1768461.0
+apuracao_municipio,2020,RN,PREFEITO,167,1895501.0
+apuracao_municipio,2020,RN,VEREADOR,167,1853335.0
+candidatos,2020,RO,*,5948,
+votacao_candidato_municipio,2020,RO,PREFEITO,204,1036770.0
+votacao_candidato_municipio,2020,RO,VEREADOR,5221,764285.0
+apuracao_municipio,2020,RO,PREFEITO,54,1036770.0
+apuracao_municipio,2020,RO,VEREADOR,52,804120.0
+candidatos,2020,RR,*,1889,
+votacao_candidato_municipio,2020,RR,PREFEITO,67,403669.0
+votacao_candidato_municipio,2020,RR,VEREADOR,1666,249223.0
+apuracao_municipio,2020,RR,PREFEITO,16,403669.0
+apuracao_municipio,2020,RR,VEREADOR,15,258031.0
+candidatos,2020,RS,*,33591,
+votacao_candidato_municipio,2020,RS,PREFEITO,1347,7308110.0
+votacao_candidato_municipio,2020,RS,VEREADOR,29840,5581484.0
+apuracao_municipio,2020,RS,PREFEITO,505,7308110.0
+apuracao_municipio,2020,RS,VEREADOR,497,5897083.0
+candidatos,2020,SC,*,21892,
+votacao_candidato_municipio,2020,SC,PREFEITO,914,4223610.0
+votacao_candidato_municipio,2020,SC,VEREADOR,19094,3519403.0
+apuracao_municipio,2020,SC,PREFEITO,298,4223610.0
+apuracao_municipio,2020,SC,VEREADOR,295,3679402.0
+candidatos,2020,SE,*,7013,
+votacao_candidato_municipio,2020,SE,PREFEITO,244,1447517.0
+votacao_candidato_municipio,2020,SE,VEREADOR,5870,1109589.0
+apuracao_municipio,2020,SE,PREFEITO,76,1447517.0
+apuracao_municipio,2020,SE,VEREADOR,75,1167133.0
+candidatos,2020,SP,*,93924,
+votacao_candidato_municipio,2020,SP,PREFEITO,2544,29325534.0
+votacao_candidato_municipio,2020,SP,VEREADOR,82818,19053713.0
+apuracao_municipio,2020,SP,PREFEITO,662,29325534.0
+apuracao_municipio,2020,SP,VEREADOR,645,20693220.0
+candidatos,2020,TO,*,8683,
+votacao_candidato_municipio,2020,TO,PREFEITO,414,808158.0
+votacao_candidato_municipio,2020,TO,VEREADOR,7464,773394.0
+apuracao_municipio,2020,TO,PREFEITO,139,808158.0
+apuracao_municipio,2020,TO,VEREADOR,139,815364.0
+candidatos,2022,BR,*,29270,
+candidatos,2022,AC,*,542,
+votacao_candidato_municipio,2022,AC,DEPUTADO ESTADUAL,7326,411114.0
+votacao_candidato_municipio,2022,AC,DEPUTADO FEDERAL,2816,418749.0
+votacao_candidato_municipio,2022,AC,GOVERNADOR,154,426600.0
+votacao_candidato_municipio,2022,AC,SENADOR,176,411949.0
+apuracao_municipio,2022,AC,DEPUTADO ESTADUAL,22,435770.0
+apuracao_municipio,2022,AC,DEPUTADO FEDERAL,22,434253.0
+apuracao_municipio,2022,AC,GOVERNADOR,22,426600.0
+apuracao_municipio,2022,AC,SENADOR,22,411949.0
+candidatos,2022,AL,*,499,
+votacao_candidato_municipio,2022,AL,DEPUTADO ESTADUAL,24888,1549561.0
+votacao_candidato_municipio,2022,AL,DEPUTADO FEDERAL,15708,1566491.0
+votacao_candidato_municipio,2022,AL,GOVERNADOR,918,3114393.0
+votacao_candidato_municipio,2022,AL,SENADOR,306,1486153.0
+apuracao_municipio,2022,AL,DEPUTADO ESTADUAL,102,1658145.0
+apuracao_municipio,2022,AL,DEPUTADO FEDERAL,102,1626009.0
+apuracao_municipio,2022,AL,GOVERNADOR,204,3114393.0
+apuracao_municipio,2022,AL,SENADOR,102,1486153.0
+candidatos,2022,AM,*,660,
+votacao_candidato_municipio,2022,AM,DEPUTADO ESTADUAL,25606,1896178.0
+votacao_candidato_municipio,2022,AM,DEPUTADO FEDERAL,9238,1915054.0
+votacao_candidato_municipio,2022,AM,GOVERNADOR,620,3746795.0
+votacao_candidato_municipio,2022,AM,SENADOR,496,1882570.0
+apuracao_municipio,2022,AM,DEPUTADO ESTADUAL,62,1968109.0
+apuracao_municipio,2022,AM,DEPUTADO FEDERAL,62,1976477.0
+apuracao_municipio,2022,AM,GOVERNADOR,124,3746795.0
+apuracao_municipio,2022,AM,SENADOR,62,1882570.0
+candidatos,2022,AP,*,557,
+votacao_candidato_municipio,2022,AP,DEPUTADO ESTADUAL,5360,389706.0
+votacao_candidato_municipio,2022,AP,DEPUTADO FEDERAL,2144,394307.0
+votacao_candidato_municipio,2022,AP,GOVERNADOR,80,413178.0
+votacao_candidato_municipio,2022,AP,SENADOR,128,400159.0
+apuracao_municipio,2022,AP,DEPUTADO ESTADUAL,16,406382.0
+apuracao_municipio,2022,AP,DEPUTADO FEDERAL,16,404749.0
+apuracao_municipio,2022,AP,GOVERNADOR,16,413178.0
+apuracao_municipio,2022,AP,SENADOR,16,400159.0
+candidatos,2022,BA,*,1719,
+votacao_candidato_municipio,2022,BA,DEPUTADO ESTADUAL,353199,7175437.0
+votacao_candidato_municipio,2022,BA,DEPUTADO FEDERAL,278973,7605138.0
+votacao_candidato_municipio,2022,BA,GOVERNADOR,3336,16616529.0
+votacao_candidato_municipio,2022,BA,SENADOR,2085,7233261.0
+apuracao_municipio,2022,BA,DEPUTADO ESTADUAL,417,7937716.0
+apuracao_municipio,2022,BA,DEPUTADO FEDERAL,417,7958431.0
+apuracao_municipio,2022,BA,GOVERNADOR,834,16616529.0
+apuracao_municipio,2022,BA,SENADOR,417,7233261.0
+candidatos,2022,CE,*,1018,
+votacao_candidato_municipio,2022,CE,DEPUTADO ESTADUAL,94576,4675684.0
+votacao_candidato_municipio,2022,CE,DEPUTADO FEDERAL,64400,4846148.0
+votacao_candidato_municipio,2022,CE,GOVERNADOR,1104,5198892.0
+votacao_candidato_municipio,2022,CE,SENADOR,552,4856028.0
+apuracao_municipio,2022,CE,DEPUTADO ESTADUAL,184,5041233.0
+apuracao_municipio,2022,CE,DEPUTADO FEDERAL,184,5034972.0
+apuracao_municipio,2022,CE,GOVERNADOR,184,5198892.0
+apuracao_municipio,2022,CE,SENADOR,184,4856028.0
+candidatos,2022,DF,*,896,
+votacao_candidato_municipio,2022,DF,DEPUTADO DISTRITAL,578,1593181.0
+votacao_candidato_municipio,2022,DF,DEPUTADO FEDERAL,197,1543495.0
+votacao_candidato_municipio,2022,DF,GOVERNADOR,10,1655043.0
+votacao_candidato_municipio,2022,DF,SENADOR,11,1576967.0
+apuracao_municipio,2022,DF,DEPUTADO DISTRITAL,1,1662497.0
+apuracao_municipio,2022,DF,DEPUTADO FEDERAL,1,1607519.0
+apuracao_municipio,2022,DF,GOVERNADOR,1,1655043.0
+apuracao_municipio,2022,DF,SENADOR,1,1576967.0
+candidatos,2022,ES,*,778,
+votacao_candidato_municipio,2022,ES,DEPUTADO ESTADUAL,39546,1948713.0
+votacao_candidato_municipio,2022,ES,DEPUTADO FEDERAL,14430,2008658.0
+votacao_candidato_municipio,2022,ES,GOVERNADOR,702,4257957.0
+votacao_candidato_municipio,2022,ES,SENADOR,702,1957350.0
+apuracao_municipio,2022,ES,DEPUTADO ESTADUAL,78,2067712.0
+apuracao_municipio,2022,ES,DEPUTADO FEDERAL,78,2084430.0
+apuracao_municipio,2022,ES,GOVERNADOR,156,4257957.0
+apuracao_municipio,2022,ES,SENADOR,78,1957350.0
+candidatos,2022,GO,*,1243,
+votacao_candidato_municipio,2022,GO,DEPUTADO ESTADUAL,181302,3186358.0
+votacao_candidato_municipio,2022,GO,DEPUTADO FEDERAL,84132,3312916.0
+votacao_candidato_municipio,2022,GO,GOVERNADOR,2214,3487598.0
+votacao_candidato_municipio,2022,GO,SENADOR,2214,3164192.0
+apuracao_municipio,2022,GO,DEPUTADO ESTADUAL,246,3391726.0
+apuracao_municipio,2022,GO,DEPUTADO FEDERAL,246,3439644.0
+apuracao_municipio,2022,GO,GOVERNADOR,246,3487598.0
+apuracao_municipio,2022,GO,SENADOR,246,3164192.0
+candidatos,2022,MA,*,959,
+votacao_candidato_municipio,2022,MA,DEPUTADO ESTADUAL,113057,3381605.0
+votacao_candidato_municipio,2022,MA,DEPUTADO FEDERAL,70308,3581064.0
+votacao_candidato_municipio,2022,MA,GOVERNADOR,1953,3449390.0
+votacao_candidato_municipio,2022,MA,SENADOR,1085,3406360.0
+apuracao_municipio,2022,MA,DEPUTADO ESTADUAL,217,3636913.0
+apuracao_municipio,2022,MA,DEPUTADO FEDERAL,217,3707930.0
+apuracao_municipio,2022,MA,GOVERNADOR,217,3449390.0
+apuracao_municipio,2022,MA,SENADOR,217,3406360.0
+candidatos,2022,MS,*,594,
+votacao_candidato_municipio,2022,MS,DEPUTADO ESTADUAL,29309,1250164.0
+votacao_candidato_municipio,2022,MS,DEPUTADO FEDERAL,11692,1291250.0
+votacao_candidato_municipio,2022,MS,GOVERNADOR,790,2855873.0
+votacao_candidato_municipio,2022,MS,SENADOR,474,1360544.0
+apuracao_municipio,2022,MS,DEPUTADO ESTADUAL,79,1331444.0
+apuracao_municipio,2022,MS,DEPUTADO FEDERAL,79,1353024.0
+apuracao_municipio,2022,MS,GOVERNADOR,158,2855873.0
+apuracao_municipio,2022,MS,SENADOR,79,1360544.0
+candidatos,2022,MT,*,525,
+votacao_candidato_municipio,2022,MT,DEPUTADO ESTADUAL,38775,1636012.0
+votacao_candidato_municipio,2022,MT,DEPUTADO FEDERAL,21150,1663753.0
+votacao_candidato_municipio,2022,MT,GOVERNADOR,564,1628212.0
+votacao_candidato_municipio,2022,MT,SENADOR,846,1298767.0
+apuracao_municipio,2022,MT,DEPUTADO ESTADUAL,141,1728127.0
+apuracao_municipio,2022,MT,DEPUTADO FEDERAL,141,1730277.0
+apuracao_municipio,2022,MT,GOVERNADOR,141,1628212.0
+apuracao_municipio,2022,MT,SENADOR,141,1298767.0
+candidatos,2022,PA,*,1043,
+votacao_candidato_municipio,2022,PA,DEPUTADO ESTADUAL,85968,4268822.0
+votacao_candidato_municipio,2022,PA,DEPUTADO FEDERAL,42912,4383541.0
+votacao_candidato_municipio,2022,PA,GOVERNADOR,1152,4427487.0
+votacao_candidato_municipio,2022,PA,SENADOR,1440,4186083.0
+apuracao_municipio,2022,PA,DEPUTADO ESTADUAL,144,4539317.0
+apuracao_municipio,2022,PA,DEPUTADO FEDERAL,144,4521516.0
+apuracao_municipio,2022,PA,GOVERNADOR,144,4427487.0
+apuracao_municipio,2022,PA,SENADOR,144,4186083.0
+candidatos,2022,PB,*,752,
+votacao_candidato_municipio,2022,PB,DEPUTADO ESTADUAL,88754,2089298.0
+votacao_candidato_municipio,2022,PB,DEPUTADO FEDERAL,47053,2120451.0
+votacao_candidato_municipio,2022,PB,GOVERNADOR,2230,4503311.0
+votacao_candidato_municipio,2022,PB,SENADOR,1561,1571165.0
+apuracao_municipio,2022,PB,DEPUTADO ESTADUAL,223,2243483.0
+apuracao_municipio,2022,PB,DEPUTADO FEDERAL,223,2209355.0
+apuracao_municipio,2022,PB,GOVERNADOR,446,4503311.0
+apuracao_municipio,2022,PB,SENADOR,223,1571165.0
+candidatos,2022,PE,*,1138,
+votacao_candidato_municipio,2022,PE,DEPUTADO ESTADUAL,101010,4669851.0
+votacao_candidato_municipio,2022,PE,DEPUTADO FEDERAL,77145,4777467.0
+votacao_candidato_municipio,2022,PE,GOVERNADOR,2220,10208730.0
+votacao_candidato_municipio,2022,PE,SENADOR,1665,4468754.0
+apuracao_municipio,2022,PE,DEPUTADO ESTADUAL,185,5013585.0
+apuracao_municipio,2022,PE,DEPUTADO FEDERAL,185,4969863.0
+apuracao_municipio,2022,PE,GOVERNADOR,370,10208730.0
+apuracao_municipio,2022,PE,SENADOR,185,4468754.0
+candidatos,2022,PI,*,433,
+votacao_candidato_municipio,2022,PI,DEPUTADO ESTADUAL,42560,1824078.0
+votacao_candidato_municipio,2022,PI,DEPUTADO FEDERAL,36736,1867492.0
+votacao_candidato_municipio,2022,PI,GOVERNADOR,1792,1935323.0
+votacao_candidato_municipio,2022,PI,SENADOR,1344,1874043.0
+apuracao_municipio,2022,PI,DEPUTADO ESTADUAL,224,1970638.0
+apuracao_municipio,2022,PI,DEPUTADO FEDERAL,224,1957483.0
+apuracao_municipio,2022,PI,GOVERNADOR,224,1935323.0
+apuracao_municipio,2022,PI,SENADOR,224,1874043.0
+candidatos,2022,PR,*,1583,
+votacao_candidato_municipio,2022,PR,DEPUTADO ESTADUAL,343140,5670533.0
+votacao_candidato_municipio,2022,PR,DEPUTADO FEDERAL,239400,5828901.0
+votacao_candidato_municipio,2022,PR,GOVERNADOR,3591,6082521.0
+votacao_candidato_municipio,2022,PR,SENADOR,3990,5830576.0
+apuracao_municipio,2022,PR,DEPUTADO ESTADUAL,399,6058064.0
+apuracao_municipio,2022,PR,DEPUTADO FEDERAL,399,6038642.0
+apuracao_municipio,2022,PR,GOVERNADOR,399,6082521.0
+apuracao_municipio,2022,PR,SENADOR,399,5830576.0
+candidatos,2022,RJ,*,2785,
+votacao_candidato_municipio,2022,RJ,DEPUTADO ESTADUAL,143612,7831354.0
+votacao_candidato_municipio,2022,RJ,DEPUTADO FEDERAL,94208,8245745.0
+votacao_candidato_municipio,2022,RJ,GOVERNADOR,644,8400962.0
+votacao_candidato_municipio,2022,RJ,SENADOR,1012,6594041.0
+apuracao_municipio,2022,RJ,DEPUTADO ESTADUAL,92,8395113.0
+apuracao_municipio,2022,RJ,DEPUTADO FEDERAL,92,8575988.0
+apuracao_municipio,2022,RJ,GOVERNADOR,92,8400962.0
+apuracao_municipio,2022,RJ,SENADOR,92,6594041.0
+candidatos,2022,RN,*,557,
+votacao_candidato_municipio,2022,RN,DEPUTADO ESTADUAL,50267,1669429.0
+votacao_candidato_municipio,2022,RN,DEPUTADO FEDERAL,29225,1788126.0
+votacao_candidato_municipio,2022,RN,GOVERNADOR,1503,1828974.0
+votacao_candidato_municipio,2022,RN,SENADOR,1670,1692509.0
+apuracao_municipio,2022,RN,DEPUTADO ESTADUAL,167,1865045.0
+apuracao_municipio,2022,RN,DEPUTADO FEDERAL,167,1864825.0
+apuracao_municipio,2022,RN,GOVERNADOR,167,1828974.0
+apuracao_municipio,2022,RN,SENADOR,167,1692509.0
+candidatos,2022,RO,*,629,
+votacao_candidato_municipio,2022,RO,DEPUTADO ESTADUAL,20436,821337.0
+votacao_candidato_municipio,2022,RO,DEPUTADO FEDERAL,7748,840190.0
+votacao_candidato_municipio,2022,RO,GOVERNADOR,364,1724003.0
+votacao_candidato_municipio,2022,RO,SENADOR,364,756418.0
+apuracao_municipio,2022,RO,DEPUTADO ESTADUAL,52,863501.0
+apuracao_municipio,2022,RO,DEPUTADO FEDERAL,52,869148.0
+apuracao_municipio,2022,RO,GOVERNADOR,104,1724003.0
+apuracao_municipio,2022,RO,SENADOR,52,756418.0
+candidatos,2022,RR,*,620,
+votacao_candidato_municipio,2022,RR,DEPUTADO ESTADUAL,5685,282365.0
+votacao_candidato_municipio,2022,RR,DEPUTADO FEDERAL,2190,284652.0
+votacao_candidato_municipio,2022,RR,GOVERNADOR,120,391778.0
+votacao_candidato_municipio,2022,RR,SENADOR,120,255780.0
+apuracao_municipio,2022,RR,DEPUTADO ESTADUAL,15,294885.0
+apuracao_municipio,2022,RR,DEPUTADO FEDERAL,15,291714.0
+apuracao_municipio,2022,RR,GOVERNADOR,15,391778.0
+apuracao_municipio,2022,RR,SENADOR,15,255780.0
+candidatos,2022,RS,*,1433,
+votacao_candidato_municipio,2022,RS,DEPUTADO ESTADUAL,388654,5781585.0
+votacao_candidato_municipio,2022,RS,DEPUTADO FEDERAL,254464,5826614.0
+votacao_candidato_municipio,2022,RS,GOVERNADOR,5964,12806541.0
+votacao_candidato_municipio,2022,RS,SENADOR,3976,5879460.0
+apuracao_municipio,2022,RS,DEPUTADO ESTADUAL,497,6155799.0
+apuracao_municipio,2022,RS,DEPUTADO FEDERAL,497,6149822.0
+apuracao_municipio,2022,RS,GOVERNADOR,994,12806541.0
+apuracao_municipio,2022,RS,SENADOR,497,5879460.0
+candidatos,2022,SC,*,992,
+votacao_candidato_municipio,2022,SC,DEPUTADO ESTADUAL,171690,3783974.0
+votacao_candidato_municipio,2022,SC,DEPUTADO FEDERAL,86140,3812045.0
+votacao_candidato_municipio,2022,SC,GOVERNADOR,3540,8301988.0
+votacao_candidato_municipio,2022,SC,SENADOR,2655,3730254.0
+apuracao_municipio,2022,SC,DEPUTADO ESTADUAL,295,4004036.0
+apuracao_municipio,2022,SC,DEPUTADO FEDERAL,295,3969848.0
+apuracao_municipio,2022,SC,GOVERNADOR,590,8301988.0
+apuracao_municipio,2022,SC,SENADOR,295,3730254.0
+candidatos,2022,SE,*,541,
+votacao_candidato_municipio,2022,SE,DEPUTADO ESTADUAL,23025,1144046.0
+votacao_candidato_municipio,2022,SE,DEPUTADO FEDERAL,11100,1141097.0
+votacao_candidato_municipio,2022,SE,GOVERNADOR,675,1964729.0
+votacao_candidato_municipio,2022,SE,SENADOR,525,1086263.0
+apuracao_municipio,2022,SE,DEPUTADO ESTADUAL,75,1216425.0
+apuracao_municipio,2022,SE,DEPUTADO FEDERAL,75,1191617.0
+apuracao_municipio,2022,SE,GOVERNADOR,150,1964729.0
+apuracao_municipio,2022,SE,SENADOR,75,1086263.0
+candidatos,2022,SP,*,3655,
+votacao_candidato_municipio,2022,SP,DEPUTADO ESTADUAL,1240980,20626401.0
+votacao_candidato_municipio,2022,SP,DEPUTADO FEDERAL,921705,22341311.0
+votacao_candidato_municipio,2022,SP,GOVERNADOR,7740,47742563.0
+votacao_candidato_municipio,2022,SP,SENADOR,7095,21556203.0
+apuracao_municipio,2022,SP,DEPUTADO ESTADUAL,645,22448839.0
+apuracao_municipio,2022,SP,DEPUTADO FEDERAL,645,23302342.0
+apuracao_municipio,2022,SP,GOVERNADOR,1290,47742563.0
+apuracao_municipio,2022,SP,SENADOR,645,21556203.0
+candidatos,2022,TO,*,531,
+votacao_candidato_municipio,2022,TO,DEPUTADO ESTADUAL,38503,795662.0
+votacao_candidato_municipio,2022,TO,DEPUTADO FEDERAL,20155,797593.0
+votacao_candidato_municipio,2022,TO,GOVERNADOR,1112,827817.0
+votacao_candidato_municipio,2022,TO,SENADOR,1390,783612.0
+apuracao_municipio,2022,TO,DEPUTADO ESTADUAL,139,834311.0
+apuracao_municipio,2022,TO,DEPUTADO FEDERAL,139,830140.0
+apuracao_municipio,2022,TO,GOVERNADOR,139,827817.0
+apuracao_municipio,2022,TO,SENADOR,139,783612.0
+candidatos,2024,BR,*,463651,
+candidatos,2024,AC,*,2311,
+votacao_candidato_municipio,2024,AC,PREFEITO,61,465199.0
+votacao_candidato_municipio,2024,AC,VEREADOR,2042,454688.0
+apuracao_municipio,2024,AC,PREFEITO,22,465199.0
+apuracao_municipio,2024,AC,VEREADOR,22,469766.0
+candidatos,2024,AL,*,5834,
+votacao_candidato_municipio,2024,AL,PREFEITO,253,1838138.0
+votacao_candidato_municipio,2024,AL,VEREADOR,5136,1794465.0
+apuracao_municipio,2024,AL,PREFEITO,102,1838138.0
+apuracao_municipio,2024,AL,VEREADOR,102,1850886.0
+candidatos,2024,AM,*,8110,
+votacao_candidato_municipio,2024,AM,PREFEITO,200,3172966.0
+votacao_candidato_municipio,2024,AM,VEREADOR,7273,2025760.0
+apuracao_municipio,2024,AM,PREFEITO,63,3172966.0
+apuracao_municipio,2024,AM,VEREADOR,62,2080863.0
+candidatos,2024,AP,*,1605,
+votacao_candidato_municipio,2024,AP,PREFEITO,55,452668.0
+votacao_candidato_municipio,2024,AP,VEREADOR,1424,432757.0
+apuracao_municipio,2024,AP,PREFEITO,16,452668.0
+apuracao_municipio,2024,AP,VEREADOR,16,441916.0
+candidatos,2024,BA,*,35205,
+votacao_candidato_municipio,2024,BA,PREFEITO,1099,8891526.0
+votacao_candidato_municipio,2024,BA,VEREADOR,31276,8394601.0
+apuracao_municipio,2024,BA,PREFEITO,418,8891526.0
+apuracao_municipio,2024,BA,VEREADOR,417,8735265.0
+candidatos,2024,CE,*,13234,
+votacao_candidato_municipio,2024,CE,PREFEITO,479,7232444.0
+votacao_candidato_municipio,2024,CE,VEREADOR,11617,5374350.0
+apuracao_municipio,2024,CE,PREFEITO,186,7232444.0
+apuracao_municipio,2024,CE,VEREADOR,184,5561679.0
+candidatos,2024,ES,*,9857,
+votacao_candidato_municipio,2024,ES,PREFEITO,273,2390328.0
+votacao_candidato_municipio,2024,ES,VEREADOR,8943,2084221.0
+apuracao_municipio,2024,ES,PREFEITO,79,2390328.0
+apuracao_municipio,2024,ES,VEREADOR,78,2149554.0
+candidatos,2024,GO,*,19972,
+votacao_candidato_municipio,2024,GO,PREFEITO,625,4711858.0
+votacao_candidato_municipio,2024,GO,VEREADOR,16733,3316332.0
+apuracao_municipio,2024,GO,PREFEITO,249,4733129.0
+apuracao_municipio,2024,GO,VEREADOR,246,3702361.0
+candidatos,2024,MA,*,16835,
+votacao_candidato_municipio,2024,MA,PREFEITO,606,4246485.0
+votacao_candidato_municipio,2024,MA,VEREADOR,14349,3916703.0
+apuracao_municipio,2024,MA,PREFEITO,218,4273857.0
+apuracao_municipio,2024,MA,VEREADOR,217,4159615.0
+candidatos,2024,MG,*,73469,
+votacao_candidato_municipio,2024,MG,PREFEITO,2300,12972953.0
+votacao_candidato_municipio,2024,MG,VEREADOR,66626,11208856.0
+apuracao_municipio,2024,MG,PREFEITO,855,12972953.0
+apuracao_municipio,2024,MG,VEREADOR,853,11672475.0
+candidatos,2024,MS,*,7379,
+votacao_candidato_municipio,2024,MS,PREFEITO,233,1903068.0
+votacao_candidato_municipio,2024,MS,VEREADOR,6606,1408396.0
+apuracao_municipio,2024,MS,PREFEITO,80,1903068.0
+apuracao_municipio,2024,MS,VEREADOR,79,1459000.0
+candidatos,2024,MT,*,11100,
+votacao_candidato_municipio,2024,MT,PREFEITO,360,2169944.0
+votacao_candidato_municipio,2024,MT,VEREADOR,9965,1795578.0
+apuracao_municipio,2024,MT,PREFEITO,143,2169944.0
+apuracao_municipio,2024,MT,VEREADOR,142,1857058.0
+candidatos,2024,PA,*,18129,
+votacao_candidato_municipio,2024,PA,PREFEITO,456,5820584.0
+votacao_candidato_municipio,2024,PA,VEREADOR,15782,4469182.0
+apuracao_municipio,2024,PA,PREFEITO,146,5820584.0
+apuracao_municipio,2024,PA,VEREADOR,144,4936432.0
+candidatos,2024,PB,*,10239,
+votacao_candidato_municipio,2024,PB,PREFEITO,514,3166530.0
+votacao_candidato_municipio,2024,PB,VEREADOR,8772,2502487.0
+apuracao_municipio,2024,PB,PREFEITO,225,3166530.0
+apuracao_municipio,2024,PB,VEREADOR,223,2574137.0
+candidatos,2024,PE,*,16065,
+votacao_candidato_municipio,2024,PE,PREFEITO,507,5838010.0
+votacao_candidato_municipio,2024,PE,VEREADOR,14253,5282740.0
+apuracao_municipio,2024,PE,PREFEITO,186,5838010.0
+apuracao_municipio,2024,PE,VEREADOR,184,5457713.0
+candidatos,2024,PI,*,8978,
+votacao_candidato_municipio,2024,PI,PREFEITO,486,2191603.0
+votacao_candidato_municipio,2024,PI,VEREADOR,7760,2139577.0
+apuracao_municipio,2024,PI,PREFEITO,224,2191603.0
+apuracao_municipio,2024,PI,VEREADOR,224,2214762.0
+candidatos,2024,PR,*,34025,
+votacao_candidato_municipio,2024,PR,PREFEITO,1124,7500669.0
+votacao_candidato_municipio,2024,PR,VEREADOR,30612,5765804.0
+apuracao_municipio,2024,PR,PREFEITO,402,7500669.0
+apuracao_municipio,2024,PR,VEREADOR,399,5988645.0
+candidatos,2024,RJ,*,17604,
+votacao_candidato_municipio,2024,RJ,PREFEITO,364,8881809.0
+votacao_candidato_municipio,2024,RJ,VEREADOR,16191,8314623.0
+apuracao_municipio,2024,RJ,PREFEITO,94,8881809.0
+apuracao_municipio,2024,RJ,VEREADOR,92,8694149.0
+candidatos,2024,RN,*,7694,
+votacao_candidato_municipio,2024,RN,PREFEITO,381,2472538.0
+votacao_candidato_municipio,2024,RN,VEREADOR,6684,2037927.0
+apuracao_municipio,2024,RN,PREFEITO,168,2472538.0
+apuracao_municipio,2024,RN,VEREADOR,167,2095230.0
+candidatos,2024,RO,*,4874,
+votacao_candidato_municipio,2024,RO,PREFEITO,163,1125642.0
+votacao_candidato_municipio,2024,RO,VEREADOR,4328,867227.0
+apuracao_municipio,2024,RO,PREFEITO,53,1125642.0
+apuracao_municipio,2024,RO,VEREADOR,52,892628.0
+candidatos,2024,RR,*,1345,
+votacao_candidato_municipio,2024,RR,PREFEITO,42,308012.0
+votacao_candidato_municipio,2024,RR,VEREADOR,1207,303038.0
+apuracao_municipio,2024,RR,PREFEITO,15,308012.0
+apuracao_municipio,2024,RR,VEREADOR,15,309746.0
+candidatos,2024,RS,*,29038,
+votacao_candidato_municipio,2024,RS,PREFEITO,1208,7551035.0
+votacao_candidato_municipio,2024,RS,VEREADOR,25913,5930382.0
+apuracao_municipio,2024,RS,PREFEITO,502,7551035.0
+apuracao_municipio,2024,RS,VEREADOR,497,6170484.0
+candidatos,2024,SC,*,19619,
+votacao_candidato_municipio,2024,SC,PREFEITO,828,4150688.0
+votacao_candidato_municipio,2024,SC,VEREADOR,17373,4009120.0
+apuracao_municipio,2024,SC,PREFEITO,295,4150688.0
+apuracao_municipio,2024,SC,VEREADOR,295,4142783.0
+candidatos,2024,SE,*,5582,
+votacao_candidato_municipio,2024,SE,PREFEITO,187,1213247.0
+votacao_candidato_municipio,2024,SE,VEREADOR,4863,1312878.0
+apuracao_municipio,2024,SE,PREFEITO,76,1611624.0
+apuracao_municipio,2024,SE,VEREADOR,75,1367105.0
+candidatos,2024,SP,*,78350,
+votacao_candidato_municipio,2024,SP,PREFEITO,2094,32389347.0
+votacao_candidato_municipio,2024,SP,VEREADOR,71546,21232534.0
+apuracao_municipio,2024,SP,PREFEITO,663,32389347.0
+apuracao_municipio,2024,SP,VEREADOR,645,22679807.0
+candidatos,2024,TO,*,7198,
+votacao_candidato_municipio,2024,TO,PREFEITO,318,1088241.0
+votacao_candidato_municipio,2024,TO,VEREADOR,6286,919908.0
+apuracao_municipio,2024,TO,PREFEITO,140,1088241.0
+apuracao_municipio,2024,TO,VEREADOR,139,946656.0
