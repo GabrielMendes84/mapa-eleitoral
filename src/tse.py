@@ -1,6 +1,7 @@
 from pathlib import Path
 from zipfile import ZipFile, is_zipfile
 import re
+import shutil
 import subprocess
 import unicodedata
 
@@ -24,13 +25,26 @@ from src.config import (
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-TSE_HISTORICO_DIR = BASE_DIR / "data" / "tse_historico"
-TSE_APOIO_DIR = TSE_HISTORICO_DIR / "apoio"
+TSE_HISTORICO_DIR = (
+    BASE_DIR
+    / "data"
+    / "tse_historico"
+)
 
-PARQUET_DIR = BASE_DIR / "data" / "parquet"
+TSE_APOIO_DIR = (
+    TSE_HISTORICO_DIR
+    / "apoio"
+)
+
+PARQUET_DIR = (
+    BASE_DIR
+    / "data"
+    / "parquet"
+)
 
 PARQUET_CANDIDATOS_DIR = (
-    PARQUET_DIR / "candidatos"
+    PARQUET_DIR
+    / "candidatos"
 )
 
 PARQUET_VOTACAO_DIR = (
@@ -60,7 +74,10 @@ HEADERS = {
 }
 
 SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
+
+SESSION.headers.update(
+    HEADERS
+)
 
 
 # =========================================================
@@ -68,6 +85,10 @@ SESSION.headers.update(HEADERS)
 # =========================================================
 
 def normalizar_codigo(valor):
+    """
+    Padroniza códigos vindos dos arquivos do TSE.
+    """
+
     if pd.isna(valor):
         return None
 
@@ -77,19 +98,20 @@ def normalizar_codigo(valor):
         texto = texto[:-2]
 
     if texto.isdigit():
-        return str(int(texto))
+        return str(
+            int(texto)
+        )
 
     return texto
 
 
 def slug(texto):
     """
-    Mesma convenção usada pelo
-    converter_tse_parquet.py.
+    Converte nome do cargo para a mesma convenção
+    usada nas pastas Parquet.
 
-    DEPUTADO FEDERAL
-    ->
-    DEPUTADO_FEDERAL
+    Exemplo:
+    DEPUTADO FEDERAL -> DEPUTADO_FEDERAL
     """
 
     texto = unicodedata.normalize(
@@ -98,12 +120,18 @@ def slug(texto):
     )
 
     texto = "".join(
-        c
-        for c in texto
-        if not unicodedata.combining(c)
+        caractere
+        for caractere in texto
+        if not unicodedata.combining(
+            caractere
+        )
     )
 
-    texto = texto.upper().strip()
+    texto = (
+        texto
+        .upper()
+        .strip()
+    )
 
     texto = re.sub(
         r"[^A-Z0-9]+",
@@ -115,7 +143,14 @@ def slug(texto):
 
 
 def arquivo_zip_valido(caminho):
-    caminho = Path(caminho)
+    """
+    Confirma que o arquivo existe,
+    possui conteúdo e é ZIP válido.
+    """
+
+    caminho = Path(
+        caminho
+    )
 
     return (
         caminho.exists()
@@ -125,7 +160,13 @@ def arquivo_zip_valido(caminho):
 
 
 def arquivo_parquet_valido(caminho):
-    caminho = Path(caminho)
+    """
+    Confirma existência básica do Parquet.
+    """
+
+    caminho = Path(
+        caminho
+    )
 
     return (
         caminho.exists()
@@ -135,7 +176,13 @@ def arquivo_parquet_valido(caminho):
 
 
 def particao_parquet_concluida(pasta):
-    pasta = Path(pasta)
+    """
+    Partições produzidas pelo conversor possuem _SUCCESS.
+    """
+
+    pasta = Path(
+        pasta
+    )
 
     return (
         pasta.exists()
@@ -143,8 +190,27 @@ def particao_parquet_concluida(pasta):
     )
 
 
+def localizar_curl():
+    """
+    Procura curl de forma multiplataforma.
+
+    Windows:
+        curl.exe
+
+    Linux / Streamlit Cloud:
+        curl
+    """
+
+    curl_cmd = (
+        shutil.which("curl")
+        or shutil.which("curl.exe")
+    )
+
+    return curl_cmd
+
+
 # =========================================================
-# LOCALIZAÇÃO DOS PARQUETS
+# PARQUET
 # =========================================================
 
 def caminho_parquet_candidatos(
@@ -152,10 +218,21 @@ def caminho_parquet_candidatos(
     uf,
     cargo=None,
 ):
-    uf = str(uf).upper().strip()
+    """
+    Retorna o Parquet de candidatos,
+    se a partição estiver concluída.
+    """
+
+    uf = (
+        str(uf)
+        .upper()
+        .strip()
+    )
 
     cargo = (
-        str(cargo).upper().strip()
+        str(cargo)
+        .upper()
+        .strip()
         if cargo
         else None
     )
@@ -178,8 +255,12 @@ def caminho_parquet_candidatos(
     )
 
     if (
-        particao_parquet_concluida(pasta)
-        and arquivo_parquet_valido(arquivo)
+        particao_parquet_concluida(
+            pasta
+        )
+        and arquivo_parquet_valido(
+            arquivo
+        )
     ):
         return arquivo
 
@@ -191,7 +272,16 @@ def caminho_parquet_votacao(
     uf,
     cargo,
 ):
-    uf = str(uf).upper().strip()
+    """
+    Retorna o Parquet de votação
+    candidato x município.
+    """
+
+    uf = (
+        str(uf)
+        .upper()
+        .strip()
+    )
 
     pasta_uf = (
         PARQUET_VOTACAO_DIR
@@ -206,8 +296,12 @@ def caminho_parquet_votacao(
     )
 
     if (
-        particao_parquet_concluida(pasta_uf)
-        and arquivo_parquet_valido(arquivo)
+        particao_parquet_concluida(
+            pasta_uf
+        )
+        and arquivo_parquet_valido(
+            arquivo
+        )
     ):
         return arquivo
 
@@ -219,7 +313,16 @@ def caminho_parquet_apuracao(
     uf,
     cargo,
 ):
-    uf = str(uf).upper().strip()
+    """
+    Retorna o Parquet de votos válidos
+    agregados por município.
+    """
+
+    uf = (
+        str(uf)
+        .upper()
+        .strip()
+    )
 
     pasta_uf = (
         PARQUET_APURACAO_DIR
@@ -234,8 +337,12 @@ def caminho_parquet_apuracao(
     )
 
     if (
-        particao_parquet_concluida(pasta_uf)
-        and arquivo_parquet_valido(arquivo)
+        particao_parquet_concluida(
+            pasta_uf
+        )
+        and arquivo_parquet_valido(
+            arquivo
+        )
     ):
         return arquivo
 
@@ -250,6 +357,13 @@ def localizar_arquivo_tse(
     ano,
     nome_arquivo,
 ):
+    """
+    Procura o ZIP em:
+
+    1. data/tse_historico/ANO/
+    2. data/raw/
+    """
+
     candidatos = [
         (
             TSE_HISTORICO_DIR
@@ -264,7 +378,9 @@ def localizar_arquivo_tse(
 
     for caminho in candidatos:
 
-        if arquivo_zip_valido(caminho):
+        if arquivo_zip_valido(
+            caminho
+        ):
 
             print(
                 "[ok] Arquivo encontrado: "
@@ -285,17 +401,31 @@ def localizar_arquivo_tse(
 
 
 def localizar_crosswalk():
+    """
+    Procura o ZIP de correspondência
+    TSE -> IBGE.
+    """
 
-    nome = "municipio_tse_ibge.zip"
+    nome = (
+        "municipio_tse_ibge.zip"
+    )
 
     candidatos = [
-        TSE_APOIO_DIR / nome,
-        RAW_DIR / nome,
+        (
+            TSE_APOIO_DIR
+            / nome
+        ),
+        (
+            RAW_DIR
+            / nome
+        ),
     ]
 
     for caminho in candidatos:
 
-        if arquivo_zip_valido(caminho):
+        if arquivo_zip_valido(
+            caminho
+        ):
 
             print(
                 "[ok] Crosswalk encontrado: "
@@ -303,6 +433,14 @@ def localizar_crosswalk():
             )
 
             return caminho
+
+        if caminho.exists():
+
+            print(
+                "[aviso] Crosswalk existente, "
+                "mas inválido/corrompido: "
+                f"{caminho}"
+            )
 
     return None
 
@@ -315,18 +453,37 @@ def baixar_arquivo(
     url,
     destino,
 ):
+    """
+    Baixa um arquivo do TSE.
 
-    destino = Path(destino)
+    Estratégia:
+    1. requests
+    2. curl / curl.exe em caso de HTTP 403
+    """
 
-    if arquivo_zip_valido(destino):
+    destino = Path(
+        destino
+    )
+
+    if arquivo_zip_valido(
+        destino
+    ):
 
         print(
-            f"[ok] Já existe: {destino}"
+            "[ok] Já existe: "
+            f"{destino}"
         )
 
         return destino
 
     if destino.exists():
+
+        print(
+            "[aviso] Removendo arquivo "
+            "inválido antes do download: "
+            f"{destino}"
+        )
+
         destino.unlink()
 
     destino.parent.mkdir(
@@ -334,9 +491,11 @@ def baixar_arquivo(
         exist_ok=True,
     )
 
-    temporario = destino.with_suffix(
-        destino.suffix
-        + ".part"
+    temporario = (
+        destino.with_suffix(
+            destino.suffix
+            + ".part"
+        )
     )
 
     if temporario.exists():
@@ -355,7 +514,11 @@ def baixar_arquivo(
             allow_redirects=True,
         ) as response:
 
-            if response.status_code == 403:
+            if (
+                response.status_code
+                == 403
+            ):
+
                 raise PermissionError(
                     "HTTP 403"
                 )
@@ -402,14 +565,26 @@ def baixar_arquivo(
 
         print(
             "CDN bloqueou requests. "
-            "Tentando curl.exe..."
+            "Tentando curl..."
         )
 
         if temporario.exists():
             temporario.unlink()
 
+        curl_cmd = (
+            localizar_curl()
+        )
+
+        if curl_cmd is None:
+
+            raise RuntimeError(
+                "O TSE retornou HTTP 403 "
+                "e o comando curl não está "
+                "disponível neste ambiente."
+            )
+
         comando = [
-            "curl.exe",
+            curl_cmd,
             "-L",
             "--fail",
             "--retry",
@@ -439,6 +614,8 @@ def baixar_arquivo(
             raise RuntimeError(
                 "Não foi possível baixar "
                 "o arquivo do TSE.\n"
+                f"URL: {url}\n"
+                f"Erro do curl:\n"
                 f"{resultado.stderr}"
             )
 
@@ -457,8 +634,9 @@ def baixar_arquivo(
             temporario.unlink()
 
         raise ValueError(
-            "Arquivo recebido não é "
-            "um ZIP válido."
+            "O arquivo recebido não é "
+            "um ZIP válido.\n"
+            f"URL: {url}"
         )
 
     temporario.replace(
@@ -480,17 +658,23 @@ def baixar_arquivo(
 def obter_arquivo_candidatos(
     ano,
 ):
+    """
+    Localiza ZIP de candidatos.
+    Baixa apenas se não existir.
+    """
 
     nome = (
         f"consulta_cand_{ano}.zip"
     )
 
-    existente = localizar_arquivo_tse(
-        ano,
-        nome,
+    existente = (
+        localizar_arquivo_tse(
+            ano,
+            nome,
+        )
     )
 
-    if existente:
+    if existente is not None:
         return existente
 
     destino = (
@@ -500,7 +684,9 @@ def obter_arquivo_candidatos(
     )
 
     return baixar_arquivo(
-        tse_candidatos_url(ano),
+        tse_candidatos_url(
+            ano
+        ),
         destino,
     )
 
@@ -508,18 +694,24 @@ def obter_arquivo_candidatos(
 def obter_arquivo_votos(
     ano,
 ):
+    """
+    Localiza ZIP de votação nominal
+    por município/zona.
+    """
 
     nome = (
         "votacao_candidato_"
         f"munzona_{ano}.zip"
     )
 
-    existente = localizar_arquivo_tse(
-        ano,
-        nome,
+    existente = (
+        localizar_arquivo_tse(
+            ano,
+            nome,
+        )
     )
 
-    if existente:
+    if existente is not None:
         return existente
 
     destino = (
@@ -529,7 +721,9 @@ def obter_arquivo_votos(
     )
 
     return baixar_arquivo(
-        tse_votacao_candidato_url(ano),
+        tse_votacao_candidato_url(
+            ano
+        ),
         destino,
     )
 
@@ -537,18 +731,24 @@ def obter_arquivo_votos(
 def obter_arquivo_detalhe(
     ano,
 ):
+    """
+    Localiza ZIP de detalhe
+    da apuração por município/zona.
+    """
 
     nome = (
         "detalhe_votacao_"
         f"munzona_{ano}.zip"
     )
 
-    existente = localizar_arquivo_tse(
-        ano,
-        nome,
+    existente = (
+        localizar_arquivo_tse(
+            ano,
+            nome,
+        )
     )
 
-    if existente:
+    if existente is not None:
         return existente
 
     destino = (
@@ -558,16 +758,23 @@ def obter_arquivo_detalhe(
     )
 
     return baixar_arquivo(
-        tse_detalhe_votacao_url(ano),
+        tse_detalhe_votacao_url(
+            ano
+        ),
         destino,
     )
 
 
 def obter_arquivo_crosswalk():
+    """
+    Localiza ZIP TSE -> IBGE.
+    """
 
-    existente = localizar_crosswalk()
+    existente = (
+        localizar_crosswalk()
+    )
 
-    if existente:
+    if existente is not None:
         return existente
 
     destino = (
@@ -582,13 +789,16 @@ def obter_arquivo_crosswalk():
 
 
 # =========================================================
-# LEITURA DE ZIP
+# LEITURA DOS ZIPs
 # =========================================================
 
 def encontrar_csv_no_zip(
     caminho_zip,
     escopo=None,
 ):
+    """
+    Localiza o CSV correto dentro do ZIP.
+    """
 
     caminho_zip = Path(
         caminho_zip
@@ -599,7 +809,8 @@ def encontrar_csv_no_zip(
     ):
 
         raise ValueError(
-            f"ZIP inválido: {caminho_zip}"
+            "Arquivo ZIP inválido: "
+            f"{caminho_zip}"
         )
 
     with ZipFile(
@@ -618,7 +829,8 @@ def encontrar_csv_no_zip(
     if not arquivos:
 
         raise ValueError(
-            "Nenhum CSV encontrado."
+            "Nenhum CSV encontrado em "
+            f"{caminho_zip}"
         )
 
     if escopo:
@@ -649,7 +861,10 @@ def encontrar_csv_no_zip(
 
     raise ValueError(
         "Não consegui identificar "
-        "o CSV correto dentro do ZIP."
+        "o CSV correto dentro do ZIP.\n"
+        f"Escopo solicitado: {escopo}\n"
+        f"Arquivos encontrados: "
+        f"{arquivos[:20]}"
     )
 
 
@@ -658,10 +873,16 @@ def ler_csv_zip(
     escopo=None,
     usecols=None,
 ):
+    """
+    Lê um CSV diretamente
+    de dentro do ZIP.
+    """
 
-    membro = encontrar_csv_no_zip(
-        caminho_zip,
-        escopo,
+    membro = (
+        encontrar_csv_no_zip(
+            caminho_zip,
+            escopo,
+        )
     )
 
     with ZipFile(
@@ -688,10 +909,15 @@ def iterar_csv_zip(
     usecols,
     chunksize=200_000,
 ):
+    """
+    Itera grandes CSVs em chunks.
+    """
 
-    membro = encontrar_csv_no_zip(
-        caminho_zip,
-        escopo,
+    membro = (
+        encontrar_csv_no_zip(
+            caminho_zip,
+            escopo,
+        )
     )
 
     with ZipFile(
@@ -723,6 +949,10 @@ def iterar_csv_zip(
 def carregar_crosswalk(
     uf,
 ):
+    """
+    Carrega correspondência
+    código TSE -> código IBGE.
+    """
 
     uf = (
         str(uf)
@@ -734,8 +964,10 @@ def carregar_crosswalk(
         obter_arquivo_crosswalk()
     )
 
-    tabela = ler_csv_zip(
-        arquivo
+    tabela = (
+        ler_csv_zip(
+            arquivo
+        )
     )
 
     def localizar(opcoes):
@@ -776,8 +1008,10 @@ def carregar_crosswalk(
     ):
 
         raise ValueError(
-            "Colunas de códigos "
-            "TSE/IBGE não encontradas."
+            "Não consegui identificar "
+            "as colunas TSE/IBGE.\n"
+            "Colunas encontradas: "
+            f"{tabela.columns.tolist()}"
         )
 
     if coluna_uf:
@@ -798,14 +1032,16 @@ def carregar_crosswalk(
         ]
     ].copy()
 
-    crosswalk = crosswalk.rename(
-        columns={
-            coluna_tse:
-                "codigo_tse",
+    crosswalk = (
+        crosswalk.rename(
+            columns={
+                coluna_tse:
+                    "codigo_tse",
 
-            coluna_ibge:
-                "codigo_ibge",
-        }
+                coluna_ibge:
+                    "codigo_ibge",
+            }
+        )
     )
 
     crosswalk[
@@ -828,8 +1064,13 @@ def carregar_crosswalk(
         .map(
             normalizar_codigo
         )
-        .astype("string")
-        .str.zfill(7)
+        .astype(
+            "string"
+        )
+        .str
+        .zfill(
+            7
+        )
     )
 
     return (
@@ -845,14 +1086,19 @@ def codigo_ibge_para_tse(
     uf,
     codigo_ibge,
 ):
+    """
+    Converte código IBGE em código TSE.
+    """
 
     codigo_ibge = (
         str(codigo_ibge)
         .zfill(7)
     )
 
-    crosswalk = carregar_crosswalk(
-        uf
+    crosswalk = (
+        carregar_crosswalk(
+            uf
+        )
     )
 
     resultado = crosswalk[
@@ -866,8 +1112,10 @@ def codigo_ibge_para_tse(
     if resultado.empty:
 
         raise ValueError(
-            f"Código IBGE {codigo_ibge} "
-            "não encontrado."
+            "Código IBGE "
+            f"{codigo_ibge} "
+            "não encontrado no "
+            "crosswalk TSE/IBGE."
         )
 
     return resultado.iloc[0][
@@ -885,6 +1133,13 @@ def listar_candidatos(
     cargo,
     municipio_tse=None,
 ):
+    """
+    Lista candidatos.
+
+    Prioridade:
+    1. Parquet
+    2. ZIP
+    """
 
     uf = (
         str(uf)
@@ -933,9 +1188,13 @@ def listar_candidatos(
             candidatos[
                 "cargo"
             ]
-            .astype("string")
-            .str.strip()
-            .str.upper()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
+            .str
+            .upper()
         )
 
         candidatos = candidatos[
@@ -1040,9 +1299,13 @@ def listar_candidatos(
             candidatos[
                 "DS_CARGO"
             ]
-            .astype("string")
-            .str.strip()
-            .str.upper()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
+            .str
+            .upper()
         )
 
         candidatos = candidatos[
@@ -1085,6 +1348,23 @@ def listar_candidatos(
                     )
                 ].copy()
 
+            elif (
+                "CD_MUNICIPIO"
+                in candidatos.columns
+            ):
+
+                candidatos = candidatos[
+                    candidatos[
+                        "CD_MUNICIPIO"
+                    ]
+                    .map(
+                        normalizar_codigo
+                    )
+                    .eq(
+                        codigo_alvo
+                    )
+                ].copy()
+
     # =====================================================
     # PADRONIZAÇÃO
     # =====================================================
@@ -1108,9 +1388,11 @@ def listar_candidatos(
         in candidatos.columns
     ]
 
-    candidatos = candidatos[
-        colunas
-    ].copy()
+    candidatos = (
+        candidatos[
+            colunas
+        ].copy()
+    )
 
     if (
         "SQ_CANDIDATO"
@@ -1153,41 +1435,53 @@ def encontrar_candidato_por_numero(
     numero,
     municipio_tse=None,
 ):
+    """
+    Encontra candidato pelo número.
+    """
 
-    candidatos = listar_candidatos(
-        ano=ano,
-        uf=uf,
-        cargo=cargo,
-        municipio_tse=municipio_tse,
+    candidatos = (
+        listar_candidatos(
+            ano=ano,
+            uf=uf,
+            cargo=cargo,
+            municipio_tse=municipio_tse,
+        )
     )
 
-    numero = str(
-        numero
-    ).strip()
+    numero = (
+        str(numero)
+        .strip()
+    )
 
     resultado = candidatos[
         candidatos[
             "NR_CANDIDATO"
         ]
-        .astype("string")
-        .str.strip()
+        .astype(
+            "string"
+        )
+        .str
+        .strip()
         .eq(
             numero
         )
-    ]
+    ].copy()
 
     if resultado.empty:
 
         raise ValueError(
-            f"Candidato {numero} "
-            "não encontrado."
+            "Nenhum candidato número "
+            f"{numero} encontrado para "
+            f"{cargo} em {uf}."
         )
 
     if len(resultado) > 1:
 
         raise ValueError(
             "Mais de um candidato "
-            "possui esse número."
+            "corresponde ao número informado. "
+            "Em cargos municipais, selecione "
+            "o município antes do candidato."
         )
 
     return resultado.iloc[0]
@@ -1204,6 +1498,13 @@ def extrair_votos_candidato(
     cargo,
     sq_candidato,
 ):
+    """
+    Extrai votos do candidato por município.
+
+    Prioridade:
+    1. Parquet
+    2. ZIP
+    """
 
     uf = (
         str(uf)
@@ -1245,15 +1546,17 @@ def extrair_votos_candidato(
             parquet
         )
 
-        votos = pd.read_parquet(
-            parquet,
-            columns=[
-                "turno",
-                "sq_candidato",
-                "codigo_tse",
-                "municipio",
-                "votos_candidato",
-            ],
+        votos = (
+            pd.read_parquet(
+                parquet,
+                columns=[
+                    "turno",
+                    "sq_candidato",
+                    "codigo_tse",
+                    "municipio",
+                    "votos_candidato",
+                ],
+            )
         )
 
         votos = votos[
@@ -1268,8 +1571,11 @@ def extrair_votos_candidato(
             votos[
                 "sq_candidato"
             ]
-            .astype("string")
-            .str.strip()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
             .eq(
                 sq_candidato
             )
@@ -1300,7 +1606,9 @@ def extrair_votos_candidato(
                 "votos_candidato"
             ],
             errors="coerce",
-        ).fillna(0)
+        ).fillna(
+            0
+        )
 
         votos = (
             votos
@@ -1370,15 +1678,23 @@ def extrair_votos_candidato(
             chunk[
                 "SG_UF"
             ]
-            .astype("string")
-            .str.upper()
-            .eq(uf)
+            .astype(
+                "string"
+            )
+            .str
+            .upper()
+            .eq(
+                uf
+            )
             &
             chunk[
                 "NR_TURNO"
             ]
-            .astype("string")
-            .str.strip()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
             .eq(
                 str(turno)
             )
@@ -1386,26 +1702,38 @@ def extrair_votos_candidato(
             chunk[
                 "DS_CARGO"
             ]
-            .astype("string")
-            .str.strip()
-            .str.upper()
-            .eq(cargo)
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
+            .str
+            .upper()
+            .eq(
+                cargo
+            )
             &
             chunk[
                 "SQ_CANDIDATO"
             ]
-            .astype("string")
-            .str.strip()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
             .eq(
                 sq_candidato
             )
         )
 
-        filtrado = chunk.loc[
-            mask
-        ].copy()
+        filtrado = (
+            chunk.loc[
+                mask
+            ].copy()
+        )
 
         if not filtrado.empty:
+
             partes.append(
                 filtrado
             )
@@ -1413,7 +1741,8 @@ def extrair_votos_candidato(
     if not partes:
 
         raise ValueError(
-            "Nenhum voto encontrado."
+            "Nenhum voto encontrado "
+            "para o candidato selecionado."
         )
 
     votos = pd.concat(
@@ -1428,7 +1757,9 @@ def extrair_votos_candidato(
             "QT_VOTOS_NOMINAIS_VALIDOS"
         ],
         errors="coerce",
-    ).fillna(0)
+    ).fillna(
+        0
+    )
 
     votos = (
         votos
@@ -1481,6 +1812,13 @@ def extrair_votos_validos(
     cargo,
     codigo_tse_municipio=None,
 ):
+    """
+    Extrai votos válidos por município.
+
+    Prioridade:
+    1. Parquet
+    2. ZIP
+    """
 
     uf = (
         str(uf)
@@ -1526,14 +1864,16 @@ def extrair_votos_validos(
             parquet
         )
 
-        validos = pd.read_parquet(
-            parquet,
-            columns=[
-                "turno",
-                "codigo_tse",
-                "municipio",
-                "votos_validos",
-            ],
+        validos = (
+            pd.read_parquet(
+                parquet,
+                columns=[
+                    "turno",
+                    "codigo_tse",
+                    "municipio",
+                    "votos_validos",
+                ],
+            )
         )
 
         validos = validos[
@@ -1582,7 +1922,9 @@ def extrair_votos_validos(
                 "votos_validos"
             ],
             errors="coerce",
-        ).fillna(0)
+        ).fillna(
+            0
+        )
 
         validos = (
             validos
@@ -1651,15 +1993,23 @@ def extrair_votos_validos(
             chunk[
                 "SG_UF"
             ]
-            .astype("string")
-            .str.upper()
-            .eq(uf)
+            .astype(
+                "string"
+            )
+            .str
+            .upper()
+            .eq(
+                uf
+            )
             &
             chunk[
                 "NR_TURNO"
             ]
-            .astype("string")
-            .str.strip()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
             .eq(
                 str(turno)
             )
@@ -1667,9 +2017,13 @@ def extrair_votos_validos(
             chunk[
                 "DS_CARGO"
             ]
-            .astype("string")
-            .str.strip()
-            .str.upper()
+            .astype(
+                "string"
+            )
+            .str
+            .strip()
+            .str
+            .upper()
             .eq(
                 cargo
             )
@@ -1694,9 +2048,11 @@ def extrair_votos_validos(
                 )
             )
 
-        filtrado = chunk.loc[
-            mask
-        ].copy()
+        filtrado = (
+            chunk.loc[
+                mask
+            ].copy()
+        )
 
         if not filtrado.empty:
 
@@ -1723,7 +2079,9 @@ def extrair_votos_validos(
             "QT_TOTAL_VOTOS_VALIDOS"
         ],
         errors="coerce",
-    ).fillna(0)
+    ).fillna(
+        0
+    )
 
     validos = (
         validos
